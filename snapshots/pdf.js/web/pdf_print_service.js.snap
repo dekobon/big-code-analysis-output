@@ -1,6 +1,5 @@
 ---
 source: tests/common/mod.rs
-assertion_line: 49
 expression: funcspace_struct
 ---
 name: "[filepath]"
@@ -1379,15 +1378,15 @@ spaces:
         metrics:
           nargs:
             total_functions: 0
-            total_closures: 0
+            total_closures: 1
             average_functions: 0
-            average_closures: 0
-            total: 0
-            average: 0
+            average_closures: 0.5
+            total: 1
+            average: 0.5
             functions_min: 0
             functions_max: 0
             closures_min: 0
-            closures_max: 0
+            closures_max: 1
           nexits:
             sum: 1
             average: 0.5
@@ -1471,15 +1470,15 @@ spaces:
     metrics:
       nargs:
         total_functions: 0
-        total_closures: 0
+        total_closures: 1
         average_functions: 0
-        average_closures: 0
-        total: 0
-        average: 0
+        average_closures: 0.5
+        total: 1
+        average: 0.333
         functions_min: 0
         functions_max: 0
         closures_min: 0
-        closures_max: 0
+        closures_max: 1
       nexits:
         sum: 2
         average: 0.667
@@ -2543,15 +2542,15 @@ spaces:
         metrics:
           nargs:
             total_functions: 0
-            total_closures: 0
+            total_closures: 1
             average_functions: 0
-            average_closures: 0
-            total: 0
-            average: 0
+            average_closures: 1
+            total: 1
+            average: 1
             functions_min: 0
             functions_max: 0
-            closures_min: 0
-            closures_max: 0
+            closures_min: 1
+            closures_max: 1
           nexits:
             sum: 0
             average: 0
@@ -2635,15 +2634,15 @@ spaces:
     metrics:
       nargs:
         total_functions: 3
-        total_closures: 0
+        total_closures: 1
         average_functions: 3
-        average_closures: 0
-        total: 3
-        average: 1.5
+        average_closures: 1
+        total: 4
+        average: 2
         functions_min: 0
         functions_max: 3
         closures_min: 0
-        closures_max: 0
+        closures_max: 1
       nexits:
         sum: 0
         average: 0
@@ -2747,10 +2746,10 @@ spaces:
         min: 0
         max: 0
       cognitive:
-        sum: 5
-        average: 5
-        min: 5
-        max: 5
+        sum: 4
+        average: 4
+        min: 4
+        max: 4
       cyclomatic:
         sum: 8
         average: 8
@@ -3115,11 +3114,11 @@ spaces:
 metrics:
   nargs:
     total_functions: 28
-    total_closures: 6
+    total_closures: 8
     average_functions: 1.647
-    average_closures: 0.4
-    total: 34
-    average: 1.063
+    average_closures: 0.533
+    total: 36
+    average: 1.125
     functions_min: 0
     functions_max: 7
     closures_min: 0
@@ -3130,10 +3129,10 @@ metrics:
     min: 0
     max: 2
   cognitive:
-    sum: 36
-    average: 1.125
+    sum: 35
+    average: 1.094
     min: 0
-    max: 5
+    max: 4
   cyclomatic:
     sum: 64
     average: 1.939
