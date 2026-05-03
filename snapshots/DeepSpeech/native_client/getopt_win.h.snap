@@ -3,10 +3,107 @@ source: tests/common/mod.rs
 expression: funcspace_struct
 ---
 name: "[filepath]"
-start_line: 119
-end_line: 119
-kind: struct
+start_line: 1
+end_line: 653
+kind: unit
 spaces:
+  - name: option
+    start_line: 119
+    end_line: 119
+    kind: struct
+    spaces: []
+    metrics:
+      nargs:
+        total_functions: 0
+        total_closures: 0
+        average_functions: 0
+        average_closures: 0
+        total: 0
+        average: 0
+        functions_min: 0
+        functions_max: 0
+        closures_min: 0
+        closures_max: 0
+      nexits:
+        sum: 0
+        average: NaN
+        min: 0
+        max: 0
+      cognitive:
+        sum: 0
+        average: NaN
+        min: 0
+        max: 0
+      cyclomatic:
+        sum: 1
+        average: 1
+        min: 1
+        max: 1
+      halstead:
+        n1: 0
+        N1: 0
+        n2: 1
+        N2: 1
+        length: 1
+        estimated_program_length: 0
+        purity_ratio: 0
+        vocabulary: 1
+        volume: 0
+        difficulty: 0
+        level: 0
+        effort: 0
+        time: 0
+        bugs: 0
+      loc:
+        sloc: 1
+        ploc: 1
+        lloc: 0
+        cloc: 0
+        blank: 0
+        sloc_average: 1
+        ploc_average: 1
+        lloc_average: 0
+        cloc_average: 0
+        blank_average: 0
+        sloc_min: 1
+        sloc_max: 1
+        cloc_min: 0
+        cloc_max: 0
+        ploc_min: 1
+        ploc_max: 1
+        lloc_min: 0
+        lloc_max: 0
+        blank_min: 0
+        blank_max: 0
+      nom:
+        functions: 0
+        closures: 0
+        functions_average: 0
+        closures_average: 0
+        total: 0
+        average: 0
+        functions_min: 0
+        functions_max: 0
+        closures_min: 0
+        closures_max: 0
+      mi:
+        mi_original: 0
+        mi_sei: 0
+        mi_visual_studio: 0
+      abc:
+        assignments: 0
+        branches: 0
+        conditions: 0
+        magnitude: 0
+        assignments_average: 0
+        branches_average: 0
+        conditions_average: 0
+        assignments_min: 0
+        assignments_max: 0
+        branches_min: 0
+        branches_max: 0
+        conditions_min: 0
+        conditions_max: 0
   - name: option
     start_line: 121
     end_line: 121
@@ -45,12 +142,12 @@ spaces:
         n2: 1
         N2: 1
         length: 1
-        estimated_program_length: NaN
-        purity_ratio: NaN
+        estimated_program_length: 0
+        purity_ratio: 0
         vocabulary: 1
         volume: 0
         difficulty: 0
-        level: inf
+        level: 0
         effort: 0
         time: 0
         bugs: 0
@@ -87,9 +184,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: inf
-        mi_sei: inf
-        mi_visual_studio: inf
+        mi_original: 0
+        mi_sei: 0
+        mi_visual_studio: 0
       abc:
         assignments: 0
         branches: 0
@@ -137,20 +234,20 @@ spaces:
         min: 2
         max: 2
       halstead:
-        n1: 8
+        n1: 9
         N1: 26
         n2: 11
         N2: 17
         length: 43
-        estimated_program_length: 62.054
-        purity_ratio: 1.443
-        vocabulary: 19
-        volume: 182.661
-        difficulty: 6.182
-        level: 0.162
-        effort: 1129.176
-        time: 62.732
-        bugs: 0.036
+        estimated_program_length: 66.583
+        purity_ratio: 1.548
+        vocabulary: 20
+        volume: 185.843
+        difficulty: 6.955
+        level: 0.144
+        effort: 1292.453
+        time: 71.803
+        bugs: 0.04
       loc:
         sloc: 8
         ploc: 8
@@ -184,9 +281,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 109.773
-        mi_sei: 82.872
-        mi_visual_studio: 64.195
+        mi_original: 109.684
+        mi_sei: 82.743
+        mi_visual_studio: 64.142
       abc:
         assignments: 0
         branches: 0
@@ -234,20 +331,20 @@ spaces:
         min: 1
         max: 1
       halstead:
-        n1: 6
+        n1: 7
         N1: 15
         n2: 8
         N2: 13
         length: 28
-        estimated_program_length: 39.51
-        purity_ratio: 1.411
-        vocabulary: 14
-        volume: 106.606
-        difficulty: 4.875
-        level: 0.205
-        effort: 519.704
-        time: 28.872
-        bugs: 0.022
+        estimated_program_length: 43.651
+        purity_ratio: 1.559
+        vocabulary: 15
+        volume: 109.393
+        difficulty: 5.688
+        level: 0.176
+        effort: 622.172
+        time: 34.565
+        bugs: 0.024
       loc:
         sloc: 8
         ploc: 8
@@ -281,9 +378,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 112.804
-        mi_sei: 87.142
-        mi_visual_studio: 65.967
+        mi_original: 112.669
+        mi_sei: 86.948
+        mi_visual_studio: 65.888
       abc:
         assignments: 0
         branches: 0
@@ -428,20 +525,20 @@ spaces:
         min: 4
         max: 4
       halstead:
-        n1: 18
+        n1: 20
         N1: 87
         n2: 16
         N2: 59
         length: 146
-        estimated_program_length: 139.059
-        purity_ratio: 0.952
-        vocabulary: 34
-        volume: 742.77
-        difficulty: 33.188
-        level: 0.03
-        effort: 24650.665
-        time: 1369.481
-        bugs: 0.282
+        estimated_program_length: 150.439
+        purity_ratio: 1.03
+        vocabulary: 36
+        volume: 754.809
+        difficulty: 36.875
+        level: 0.027
+        effort: 27833.584
+        time: 1546.31
+        bugs: 0.306
       loc:
         sloc: 31
         ploc: 24
@@ -475,9 +572,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 80.075
-        mi_sei: 69.371
-        mi_visual_studio: 46.828
+        mi_original: 79.992
+        mi_sei: 69.25
+        mi_visual_studio: 46.779
       abc:
         assignments: 0
         branches: 0
@@ -525,20 +622,20 @@ spaces:
         min: 1
         max: 1
       halstead:
-        n1: 7
+        n1: 8
         N1: 20
         n2: 7
         N2: 11
         length: 31
-        estimated_program_length: 39.303
-        purity_ratio: 1.268
-        vocabulary: 14
-        volume: 118.028
-        difficulty: 5.5
-        level: 0.182
-        effort: 649.154
-        time: 36.064
-        bugs: 0.025
+        estimated_program_length: 43.651
+        purity_ratio: 1.408
+        vocabulary: 15
+        volume: 121.114
+        difficulty: 6.286
+        level: 0.159
+        effort: 761.286
+        time: 42.294
+        bugs: 0.028
       loc:
         sloc: 14
         ploc: 5
@@ -572,9 +669,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 103.208
-        mi_sei: 119.358
-        mi_visual_studio: 60.356
+        mi_original: 103.074
+        mi_sei: 119.164
+        mi_visual_studio: 60.277
       abc:
         assignments: 0
         branches: 0
@@ -622,20 +719,20 @@ spaces:
         min: 1
         max: 1
       halstead:
-        n1: 4
+        n1: 5
         N1: 11
         n2: 5
         N2: 5
         length: 16
-        estimated_program_length: 19.61
-        purity_ratio: 1.226
-        vocabulary: 9
-        volume: 50.719
-        difficulty: 2
-        level: 0.5
-        effort: 101.438
-        time: 5.635
-        bugs: 0.007
+        estimated_program_length: 23.219
+        purity_ratio: 1.451
+        vocabulary: 10
+        volume: 53.151
+        difficulty: 2.5
+        level: 0.4
+        effort: 132.877
+        time: 7.382
+        bugs: 0.009
       loc:
         sloc: 7
         ploc: 7
@@ -669,9 +766,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 118.83
-        mi_sei: 144.136
-        mi_visual_studio: 69.491
+        mi_original: 118.586
+        mi_sei: 143.785
+        mi_visual_studio: 69.349
       abc:
         assignments: 0
         branches: 0
@@ -729,12 +826,12 @@ spaces:
             n2: 1
             N2: 1
             length: 1
-            estimated_program_length: NaN
-            purity_ratio: NaN
+            estimated_program_length: 0
+            purity_ratio: 0
             vocabulary: 1
             volume: 0
             difficulty: 0
-            level: inf
+            level: 0
             effort: 0
             time: 0
             bugs: 0
@@ -771,9 +868,9 @@ spaces:
             closures_min: 0
             closures_max: 0
           mi:
-            mi_original: inf
-            mi_sei: inf
-            mi_visual_studio: inf
+            mi_original: 0
+            mi_sei: 0
+            mi_visual_studio: 0
           abc:
             assignments: 0
             branches: 0
@@ -816,31 +913,31 @@ spaces:
         min: 1
         max: 28
       halstead:
-        n1: 23
+        n1: 25
         N1: 257
         n2: 42
         N2: 165
         length: 422
-        estimated_program_length: 330.519
-        purity_ratio: 0.783
-        vocabulary: 65
-        volume: 2541.439
-        difficulty: 45.179
-        level: 0.022
-        effort: 114818.593
-        time: 6378.811
-        bugs: 0.787
+        estimated_program_length: 342.574
+        purity_ratio: 0.812
+        vocabulary: 67
+        volume: 2559.89
+        difficulty: 49.107
+        level: 0.02
+        effort: 125708.866
+        time: 6983.826
+        bugs: 0.836
       loc:
         sloc: 123
-        ploc: 93
+        ploc: 95
         lloc: 63
         cloc: 24
-        blank: 9
+        blank: 7
         sloc_average: 61.5
-        ploc_average: 46.5
+        ploc_average: 47.5
         lloc_average: 31.5
         cloc_average: 12
-        blank_average: 4.5
+        blank_average: 3.5
         sloc_min: 1
         sloc_max: 1
         cloc_min: 0
@@ -863,9 +960,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 45.602
-        mi_sei: 24.649
-        mi_visual_studio: 26.668
+        mi_original: 45.564
+        mi_sei: 24.595
+        mi_visual_studio: 26.646
       abc:
         assignments: 0
         branches: 0
@@ -923,12 +1020,12 @@ spaces:
             n2: 1
             N2: 1
             length: 1
-            estimated_program_length: NaN
-            purity_ratio: NaN
+            estimated_program_length: 0
+            purity_ratio: 0
             vocabulary: 1
             volume: 0
             difficulty: 0
-            level: inf
+            level: 0
             effort: 0
             time: 0
             bugs: 0
@@ -965,9 +1062,9 @@ spaces:
             closures_min: 0
             closures_max: 0
           mi:
-            mi_original: inf
-            mi_sei: inf
-            mi_visual_studio: inf
+            mi_original: 0
+            mi_sei: 0
+            mi_visual_studio: 0
           abc:
             assignments: 0
             branches: 0
@@ -1010,20 +1107,20 @@ spaces:
         min: 1
         max: 57
       halstead:
-        n1: 25
+        n1: 26
         N1: 431
         n2: 39
         N2: 246
         length: 677
-        estimated_program_length: 322.227
-        purity_ratio: 0.476
-        vocabulary: 64
-        volume: 4062
-        difficulty: 78.846
-        level: 0.013
-        effort: 320273.077
-        time: 17792.949
-        bugs: 1.56
+        estimated_program_length: 328.342
+        purity_ratio: 0.485
+        vocabulary: 65
+        volume: 4077.143
+        difficulty: 82
+        level: 0.012
+        effort: 334325.727
+        time: 18573.651
+        bugs: 1.606
       loc:
         sloc: 192
         ploc: 138
@@ -1057,9 +1154,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 29.28
-        mi_sei: 10.766
-        mi_visual_studio: 17.123
+        mi_original: 29.26
+        mi_sei: 10.738
+        mi_visual_studio: 17.111
       abc:
         assignments: 0
         branches: 0
@@ -1117,12 +1214,12 @@ spaces:
             n2: 1
             N2: 1
             length: 1
-            estimated_program_length: NaN
-            purity_ratio: NaN
+            estimated_program_length: 0
+            purity_ratio: 0
             vocabulary: 1
             volume: 0
             difficulty: 0
-            level: inf
+            level: 0
             effort: 0
             time: 0
             bugs: 0
@@ -1159,9 +1256,9 @@ spaces:
             closures_min: 0
             closures_max: 0
           mi:
-            mi_original: inf
-            mi_sei: inf
-            mi_visual_studio: inf
+            mi_original: 0
+            mi_sei: 0
+            mi_visual_studio: 0
           abc:
             assignments: 0
             branches: 0
@@ -1204,20 +1301,20 @@ spaces:
         min: 1
         max: 1
       halstead:
-        n1: 7
+        n1: 8
         N1: 25
         n2: 9
         N2: 14
         length: 39
-        estimated_program_length: 48.181
-        purity_ratio: 1.235
-        vocabulary: 16
-        volume: 156
-        difficulty: 5.444
-        level: 0.184
-        effort: 849.333
-        time: 47.185
-        bugs: 0.03
+        estimated_program_length: 52.529
+        purity_ratio: 1.347
+        vocabulary: 17
+        volume: 159.411
+        difficulty: 6.222
+        level: 0.161
+        effort: 991.891
+        time: 55.105
+        bugs: 0.033
       loc:
         sloc: 8
         ploc: 7
@@ -1251,9 +1348,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 110.594
-        mi_sei: 84.056
-        mi_visual_studio: 64.675
+        mi_original: 110.481
+        mi_sei: 83.894
+        mi_visual_studio: 64.609
       abc:
         assignments: 0
         branches: 0
@@ -1311,12 +1408,12 @@ spaces:
             n2: 1
             N2: 1
             length: 1
-            estimated_program_length: NaN
-            purity_ratio: NaN
+            estimated_program_length: 0
+            purity_ratio: 0
             vocabulary: 1
             volume: 0
             difficulty: 0
-            level: inf
+            level: 0
             effort: 0
             time: 0
             bugs: 0
@@ -1353,9 +1450,9 @@ spaces:
             closures_min: 0
             closures_max: 0
           mi:
-            mi_original: inf
-            mi_sei: inf
-            mi_visual_studio: inf
+            mi_original: 0
+            mi_sei: 0
+            mi_visual_studio: 0
           abc:
             assignments: 0
             branches: 0
@@ -1398,20 +1495,20 @@ spaces:
         min: 1
         max: 1
       halstead:
-        n1: 8
+        n1: 9
         N1: 26
         n2: 10
         N2: 15
         length: 41
-        estimated_program_length: 57.219
-        purity_ratio: 1.396
-        vocabulary: 18
-        volume: 170.967
-        difficulty: 6
-        level: 0.167
-        effort: 1025.802
-        time: 56.989
-        bugs: 0.034
+        estimated_program_length: 61.749
+        purity_ratio: 1.506
+        vocabulary: 19
+        volume: 174.165
+        difficulty: 6.75
+        level: 0.148
+        effort: 1175.614
+        time: 65.312
+        bugs: 0.037
       loc:
         sloc: 8
         ploc: 7
@@ -1445,9 +1542,9 @@ spaces:
         closures_min: 0
         closures_max: 0
       mi:
-        mi_original: 110.117
-        mi_sei: 83.369
-        mi_visual_studio: 64.396
+        mi_original: 110.021
+        mi_sei: 83.23
+        mi_visual_studio: 64.34
       abc:
         assignments: 0
         branches: 0
@@ -1486,35 +1583,35 @@ metrics:
     max: 85
   cyclomatic:
     sum: 106
-    average: 6.625
+    average: 6.235
     min: 1
     max: 57
   halstead:
-    n1: 37
-    N1: 1012
-    n2: 105
-    N2: 602
-    length: 1614
-    estimated_program_length: 897.746
-    purity_ratio: 0.556
-    vocabulary: 142
-    volume: 11539.692
-    difficulty: 106.067
+    n1: 40
+    N1: 1046
+    n2: 110
+    N2: 632
+    length: 1678
+    estimated_program_length: 958.827
+    purity_ratio: 0.571
+    vocabulary: 150
+    volume: 12129.958
+    difficulty: 114.909
     level: 0.009
-    effort: 1223976.649
-    time: 67998.703
-    bugs: 3.814
+    effort: 1393842.419
+    time: 77435.69
+    bugs: 4.159
   loc:
-    sloc: 1
-    ploc: 351
-    lloc: 216
-    cloc: 172
-    blank: -489
-    sloc_average: 0.063
-    ploc_average: 21.938
-    lloc_average: 13.5
-    cloc_average: 10.75
-    blank_average: -30.563
+    sloc: 653
+    ploc: 394
+    lloc: 224
+    cloc: 246
+    blank: 56
+    sloc_average: 38.412
+    ploc_average: 23.176
+    lloc_average: 13.176
+    cloc_average: 14.471
+    blank_average: 3.294
     sloc_min: 1
     sloc_max: 192
     cloc_min: 0
@@ -1524,22 +1621,22 @@ metrics:
     lloc_min: 0
     lloc_max: 106
     blank_min: 0
-    blank_max: 9
+    blank_max: 8
   nom:
     functions: 9
     closures: 0
-    functions_average: 0.563
+    functions_average: 0.529
     closures_average: 0
     total: 9
-    average: 0.563
+    average: 0.529
     functions_min: 0
     functions_max: 1
     closures_min: 0
     closures_max: 0
   mi:
-    mi_original: 97.982
-    mi_sei: 126.185
-    mi_visual_studio: 57.299
+    mi_original: -7.279
+    mi_sei: -34.714
+    mi_visual_studio: 0
   abc:
     assignments: 0
     branches: 0
@@ -1554,4 +1651,3 @@ metrics:
     branches_max: 0
     conditions_min: 0
     conditions_max: 0
-
