@@ -231,6 +231,30 @@ spaces:
                 branches_max: 0
                 conditions_min: 0
                 conditions_max: 0
+              wmc:
+                classes: 1
+                interfaces: 0
+                total: 1
+              npm:
+                classes: 1
+                interfaces: 0
+                class_methods: 1
+                interface_methods: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 1
+                total_methods: 1
+                average: 1
+              npa:
+                classes: 4
+                interfaces: 0
+                class_attributes: 4
+                interface_attributes: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 4
+                total_attributes: 4
+                average: 1
           - name: Replace
             start_line: 39
             end_line: 64
@@ -325,17 +349,17 @@ spaces:
                 mi_sei: 73.296
                 mi_visual_studio: 47.538
               abc:
-                assignments: 0
-                branches: 0
+                assignments: 3
+                branches: 11
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
+                magnitude: 11.402
+                assignments_average: 3
+                branches_average: 11
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                assignments_min: 3
+                assignments_max: 3
+                branches_min: 11
+                branches_max: 11
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -427,17 +451,17 @@ spaces:
             mi_sei: 49.253
             mi_visual_studio: 38.516
           abc:
-            assignments: 0
-            branches: 0
+            assignments: 3
+            branches: 11
             conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
+            magnitude: 11.402
+            assignments_average: 0.75
+            branches_average: 2.75
             conditions_average: 0
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 3
             branches_min: 0
-            branches_max: 0
+            branches_max: 11
             conditions_min: 0
             conditions_max: 0
     metrics:
@@ -529,17 +553,17 @@ spaces:
         mi_sei: 49.003
         mi_visual_studio: 38.012
       abc:
-        assignments: 0
-        branches: 0
+        assignments: 3
+        branches: 11
         conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
+        magnitude: 11.402
+        assignments_average: 0.6
+        branches_average: 2.2
         conditions_average: 0
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 3
         branches_min: 0
-        branches_max: 0
+        branches_max: 11
         conditions_min: 0
         conditions_max: 0
 metrics:
@@ -631,16 +655,20 @@ metrics:
     mi_sei: 44.583
     mi_visual_studio: 35.634
   abc:
-    assignments: 0
-    branches: 0
+    assignments: 3
+    branches: 11
     conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
+    magnitude: 11.402
+    assignments_average: 0.5
+    branches_average: 1.833
     conditions_average: 0
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 3
     branches_min: 0
-    branches_max: 0
+    branches_max: 11
     conditions_min: 0
     conditions_max: 0
+  wmc:
+    classes: 1
+    interfaces: 0
+    total: 1

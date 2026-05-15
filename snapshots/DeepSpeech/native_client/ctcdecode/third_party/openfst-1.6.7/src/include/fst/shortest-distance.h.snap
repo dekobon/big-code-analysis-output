@@ -226,6 +226,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 5
+            interfaces: 0
+            class_attributes: 5
+            interface_attributes: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 5
+            total_attributes: 5
+            average: 1
       - name: internal
         start_line: 54
         end_line: 207
@@ -331,16 +355,16 @@ spaces:
                     mi_visual_studio: 56.434
                   abc:
                     assignments: 0
-                    branches: 0
+                    branches: 1
                     conditions: 0
-                    magnitude: 0
+                    magnitude: 1
                     assignments_average: 0
-                    branches_average: 0
+                    branches_average: 1
                     conditions_average: 0
                     assignments_min: 0
                     assignments_max: 0
-                    branches_min: 0
-                    branches_max: 0
+                    branches_min: 1
+                    branches_max: 1
                     conditions_min: 0
                     conditions_max: 0
               - name: Error
@@ -540,18 +564,42 @@ spaces:
                 mi_visual_studio: 43.336
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 0.333
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
                 branches_min: 0
-                branches_max: 0
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
+              wmc:
+                classes: 2
+                interfaces: 0
+                total: 2
+              npm:
+                classes: 3
+                interfaces: 0
+                class_methods: 3
+                interface_methods: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 3
+                total_methods: 3
+                average: 1
+              npa:
+                classes: 0
+                interfaces: 0
+                class_attributes: 13
+                interface_attributes: 0
+                classes_average: 0
+                interfaces_average: NaN
+                total: 0
+                total_attributes: 13
+                average: 0
           - name: "ShortestDistanceState<Arc, Queue, ArcFilter>::ShortestDistance"
             start_line: 109
             end_line: 205
@@ -646,19 +694,19 @@ spaces:
                 mi_sei: -4.646
                 mi_visual_studio: 27.729
               abc:
-                assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                assignments: 16
+                branches: 73
+                conditions: 13
+                magnitude: 75.855
+                assignments_average: 16
+                branches_average: 73
+                conditions_average: 13
+                assignments_min: 16
+                assignments_max: 16
+                branches_min: 73
+                branches_max: 73
+                conditions_min: 13
+                conditions_max: 13
         metrics:
           nargs:
             total_functions: 5
@@ -748,19 +796,19 @@ spaces:
             mi_sei: 5.359
             mi_visual_studio: 21.914
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            assignments: 16
+            branches: 74
+            conditions: 13
+            magnitude: 76.818
+            assignments_average: 3.2
+            branches_average: 14.8
+            conditions_average: 2.6
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 16
             branches_min: 0
-            branches_max: 0
+            branches_max: 73
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 13
       - name: ShortestDistance
         start_line: 233
         end_line: 243
@@ -856,16 +904,16 @@ spaces:
             mi_visual_studio: 58.768
           abc:
             assignments: 0
-            branches: 0
+            branches: 5
             conditions: 0
-            magnitude: 0
+            magnitude: 5
             assignments_average: 0
-            branches_average: 0
+            branches_average: 5
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
-            branches_min: 0
-            branches_max: 0
+            branches_min: 5
+            branches_max: 5
             conditions_min: 0
             conditions_max: 0
       - name: ShortestDistance
@@ -963,18 +1011,18 @@ spaces:
             mi_visual_studio: 44.048
           abc:
             assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
+            branches: 13
+            conditions: 4
+            magnitude: 13.601
             assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            branches_average: 13
+            conditions_average: 4
             assignments_min: 0
             assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            branches_min: 13
+            branches_max: 13
+            conditions_min: 4
+            conditions_max: 4
       - name: ShortestDistance
         start_line: 312
         end_line: 336
@@ -1069,19 +1117,19 @@ spaces:
             mi_sei: 56.806
             mi_visual_studio: 47.16
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 1
+            branches: 17
+            conditions: 10
+            magnitude: 19.748
+            assignments_average: 1
+            branches_average: 17
+            conditions_average: 10
+            assignments_min: 1
+            assignments_max: 1
+            branches_min: 17
+            branches_max: 17
+            conditions_min: 10
+            conditions_max: 10
     metrics:
       nargs:
         total_functions: 18
@@ -1171,19 +1219,19 @@ spaces:
         mi_sei: -8.127
         mi_visual_studio: 10.75
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 17
+        branches: 109
+        conditions: 27
+        magnitude: 113.574
+        assignments_average: 1.545
+        branches_average: 9.909
+        conditions_average: 2.455
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 16
         branches_min: 0
-        branches_max: 0
+        branches_max: 73
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 13
 metrics:
   nargs:
     total_functions: 18
@@ -1273,16 +1321,20 @@ metrics:
     mi_sei: -9.935
     mi_visual_studio: 9.973
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 17
+    branches: 109
+    conditions: 27
+    magnitude: 113.574
+    assignments_average: 1.417
+    branches_average: 9.083
+    conditions_average: 2.25
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 16
     branches_min: 0
-    branches_max: 0
+    branches_max: 73
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 13
+  wmc:
+    classes: 3
+    interfaces: 0
+    total: 3

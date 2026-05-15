@@ -119,6 +119,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 0
+            interfaces: 0
+            total: 0
+          npm:
+            classes: 0
+            interfaces: 0
+            class_methods: 0
+            interface_methods: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_methods: 0
+            average: NaN
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: "NaturalLess<W, typename std::enable_if<IsIdempotent<W>::value>::type>"
         start_line: 164
         end_line: 173
@@ -326,18 +350,18 @@ spaces:
                 mi_visual_studio: 75.723
               abc:
                 assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
+                branches: 1
+                conditions: 3
+                magnitude: 3.162
                 assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
+                branches_average: 1
+                conditions_average: 3
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                branches_min: 1
+                branches_max: 1
+                conditions_min: 3
+                conditions_max: 3
         metrics:
           nargs:
             total_functions: 2
@@ -428,18 +452,42 @@ spaces:
             mi_visual_studio: 61.144
           abc:
             assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
+            branches: 1
+            conditions: 3
+            magnitude: 3.162
             assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            branches_average: 0.333
+            conditions_average: 1
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 1
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 3
+          wmc:
+            classes: 3
+            interfaces: 0
+            total: 3
+          npm:
+            classes: 2
+            interfaces: 0
+            class_methods: 2
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 2
+            total_methods: 2
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: "NaturalLess<W, typename std::enable_if<!IsIdempotent<W>::value>::type>"
         start_line: 177
         end_line: 188
@@ -540,16 +588,16 @@ spaces:
                 mi_visual_studio: 78.393
               abc:
                 assignments: 0
-                branches: 0
+                branches: 2
                 conditions: 0
-                magnitude: 0
+                magnitude: 2
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 2
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 2
+                branches_max: 2
                 conditions_min: 0
                 conditions_max: 0
           - name: operator()
@@ -749,18 +797,42 @@ spaces:
             mi_visual_studio: 59.678
           abc:
             assignments: 0
-            branches: 0
+            branches: 2
             conditions: 0
-            magnitude: 0
+            magnitude: 2
             assignments_average: 0
-            branches_average: 0
+            branches_average: 0.667
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 2
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 2
+            interfaces: 0
+            total: 2
+          npm:
+            classes: 2
+            interfaces: 0
+            class_methods: 2
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 2
+            total_methods: 2
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: Power
         start_line: 193
         end_line: 197
@@ -855,19 +927,19 @@ spaces:
             mi_sei: 94.149
             mi_visual_studio: 68.766
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 2
+            branches: 2
+            conditions: 1
+            magnitude: 3
+            assignments_average: 2
+            branches_average: 2
+            conditions_average: 1
+            assignments_min: 2
+            assignments_max: 2
+            branches_min: 2
+            branches_max: 2
+            conditions_min: 1
+            conditions_max: 1
       - name: Adder
         start_line: 201
         end_line: 216
@@ -968,16 +1040,16 @@ spaces:
                 mi_visual_studio: 88.415
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: Add
@@ -1074,17 +1146,17 @@ spaces:
                 mi_sei: 107.108
                 mi_visual_studio: 74.06
               abc:
-                assignments: 0
-                branches: 0
+                assignments: 1
+                branches: 1
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
+                magnitude: 1.414
+                assignments_average: 1
+                branches_average: 1
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                assignments_min: 1
+                assignments_max: 1
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: Sum
@@ -1288,17 +1360,17 @@ spaces:
                 mi_sei: 141.661
                 mi_visual_studio: 88.066
               abc:
-                assignments: 0
-                branches: 0
+                assignments: 1
+                branches: 1
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
+                magnitude: 1.414
+                assignments_average: 1
+                branches_average: 1
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                assignments_min: 1
+                assignments_max: 1
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -1390,19 +1462,43 @@ spaces:
             mi_sei: 63.609
             mi_visual_studio: 56.263
           abc:
-            assignments: 0
-            branches: 0
+            assignments: 2
+            branches: 3
             conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
+            magnitude: 3.606
+            assignments_average: 0.4
+            branches_average: 0.6
             conditions_average: 0
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 1
             branches_min: 0
-            branches_max: 0
+            branches_max: 1
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 4
+            interfaces: 0
+            total: 4
+          npm:
+            classes: 4
+            interfaces: 0
+            class_methods: 4
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 4
+            total_methods: 4
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 1
+            interface_attributes: 0
+            classes_average: 0
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 1
+            average: 0
       - name: WeightConvert
         start_line: 220
         end_line: 226
@@ -1503,16 +1599,16 @@ spaces:
                 mi_visual_studio: 70.764
               abc:
                 assignments: 0
-                branches: 0
+                branches: 4
                 conditions: 0
-                magnitude: 0
+                magnitude: 4
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 4
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 4
+                branches_max: 4
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -1605,18 +1701,42 @@ spaces:
             mi_visual_studio: 67.13
           abc:
             assignments: 0
-            branches: 0
+            branches: 4
             conditions: 0
-            magnitude: 0
+            magnitude: 4
             assignments_average: 0
-            branches_average: 0
+            branches_average: 2
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 4
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: "WeightConvert<W, W>"
         start_line: 230
         end_line: 232
@@ -1831,6 +1951,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: WeightGenerate
         start_line: 236
         end_line: 241
@@ -1931,16 +2075,16 @@ spaces:
                 mi_visual_studio: 74.342
               abc:
                 assignments: 0
-                branches: 0
+                branches: 3
                 conditions: 0
-                magnitude: 0
+                magnitude: 3
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 3
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 3
+                branches_max: 3
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -2033,18 +2177,42 @@ spaces:
             mi_visual_studio: 69.92
           abc:
             assignments: 0
-            branches: 0
+            branches: 3
             conditions: 0
-            magnitude: 0
+            magnitude: 3
             assignments_average: 0
-            branches_average: 0
+            branches_average: 1.5
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 3
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: internal
         start_line: 243
         end_line: 266
@@ -2478,6 +2646,30 @@ spaces:
                 branches_max: 0
                 conditions_min: 0
                 conditions_max: 0
+              wmc:
+                classes: 3
+                interfaces: 0
+                total: 3
+              npm:
+                classes: 5
+                interfaces: 0
+                class_methods: 5
+                interface_methods: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 5
+                total_methods: 5
+                average: 1
+              npa:
+                classes: 0
+                interfaces: 0
+                class_attributes: 4
+                interface_attributes: 0
+                classes_average: 0
+                interfaces_average: NaN
+                total: 0
+                total_attributes: 4
+                average: 0
         metrics:
           nargs:
             total_functions: 0
@@ -2893,19 +3085,19 @@ spaces:
                 mi_sei: 104.9
                 mi_visual_studio: 73.124
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
-                conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                conditions: 1
+                magnitude: 1.414
+                assignments_average: 1
                 branches_average: 0
-                conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                conditions_average: 1
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                conditions_min: 1
+                conditions_max: 1
         metrics:
           nargs:
             total_functions: 2
@@ -2995,19 +3187,43 @@ spaces:
             mi_sei: 79.023
             mi_visual_studio: 48.157
           abc:
-            assignments: 0
+            assignments: 1
             branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
+            conditions: 1
+            magnitude: 1.414
+            assignments_average: 0.25
             branches_average: 0
-            conditions_average: 0
+            conditions_average: 0.25
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 1
             branches_min: 0
             branches_max: 0
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 1
+          wmc:
+            classes: 4
+            interfaces: 0
+            total: 4
+          npm:
+            classes: 6
+            interfaces: 0
+            class_methods: 6
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 6
+            total_methods: 6
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 2
+            interface_attributes: 0
+            classes_average: 0
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 2
+            average: 0
       - name: CompositeWeightReader
         start_line: 305
         end_line: 335
@@ -3329,6 +3545,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 2
+            interfaces: 0
+            total: 2
+          npm:
+            classes: 7
+            interfaces: 0
+            class_methods: 7
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 7
+            total_methods: 7
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 3
+            interface_attributes: 0
+            classes_average: 0
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 3
+            average: 0
       - name: "CompositeWeightReader::ReadElement"
         start_line: 338
         end_line: 376
@@ -3423,19 +3663,19 @@ spaces:
             mi_sei: 51.424
             mi_visual_studio: 41.098
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 5
+            branches: 15
+            conditions: 23
+            magnitude: 27.911
+            assignments_average: 5
+            branches_average: 15
+            conditions_average: 23
+            assignments_min: 5
+            assignments_max: 5
+            branches_min: 15
+            branches_max: 15
+            conditions_min: 23
+            conditions_max: 23
     metrics:
       nargs:
         total_functions: 16
@@ -3525,19 +3765,19 @@ spaces:
         mi_sei: -2.448
         mi_visual_studio: 10.619
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 10
+        branches: 32
+        conditions: 30
+        magnitude: 44.989
+        assignments_average: 0.303
+        branches_average: 0.97
+        conditions_average: 0.909
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 5
         branches_min: 0
-        branches_max: 0
+        branches_max: 15
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 23
 metrics:
   nargs:
     total_functions: 16
@@ -3627,16 +3867,20 @@ metrics:
     mi_sei: -4.866
     mi_visual_studio: 9.761
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 10
+    branches: 34
+    conditions: 30
+    magnitude: 46.433
+    assignments_average: 0.294
+    branches_average: 1
+    conditions_average: 0.882
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 5
     branches_min: 0
-    branches_max: 0
+    branches_max: 15
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 23
+  wmc:
+    classes: 21
+    interfaces: 0
+    total: 21

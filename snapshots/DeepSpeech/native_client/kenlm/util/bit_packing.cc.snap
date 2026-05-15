@@ -124,6 +124,30 @@ spaces:
                 branches_max: 0
                 conditions_min: 0
                 conditions_max: 0
+              wmc:
+                classes: 0
+                interfaces: 0
+                total: 0
+              npm:
+                classes: 0
+                interfaces: 0
+                class_methods: 0
+                interface_methods: 0
+                classes_average: NaN
+                interfaces_average: NaN
+                total: 0
+                total_methods: 0
+                average: NaN
+              npa:
+                classes: 0
+                interfaces: 0
+                class_attributes: 0
+                interface_attributes: 0
+                classes_average: NaN
+                interfaces_average: NaN
+                total: 0
+                total_attributes: 0
+                average: NaN
           - name: StaticCheck<true>
             start_line: 10
             end_line: 10
@@ -231,6 +255,30 @@ spaces:
                 branches_max: 0
                 conditions_min: 0
                 conditions_max: 0
+              wmc:
+                classes: 0
+                interfaces: 0
+                total: 0
+              npm:
+                classes: 0
+                interfaces: 0
+                class_methods: 0
+                interface_methods: 0
+                classes_average: NaN
+                interfaces_average: NaN
+                total: 0
+                total_methods: 0
+                average: NaN
+              npa:
+                classes: 0
+                interfaces: 0
+                class_attributes: 0
+                interface_attributes: 0
+                classes_average: NaN
+                interfaces_average: NaN
+                total: 0
+                total_attributes: 0
+                average: NaN
         metrics:
           nargs:
             total_functions: 0
@@ -322,17 +370,17 @@ spaces:
           abc:
             assignments: 0
             branches: 0
-            conditions: 0
-            magnitude: 0
+            conditions: 1
+            magnitude: 1
             assignments_average: 0
             branches_average: 0
-            conditions_average: 0
+            conditions_average: 0.333
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
             branches_max: 0
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 1
       - name: RequiredBits
         start_line: 17
         end_line: 22
@@ -427,15 +475,15 @@ spaces:
             mi_sei: 92.61
             mi_visual_studio: 68.101
           abc:
-            assignments: 0
+            assignments: 2
             branches: 0
             conditions: 0
-            magnitude: 0
-            assignments_average: 0
+            magnitude: 2
+            assignments_average: 2
             branches_average: 0
             conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
+            assignments_min: 2
+            assignments_max: 2
             branches_min: 0
             branches_max: 0
             conditions_min: 0
@@ -534,19 +582,19 @@ spaces:
             mi_sei: 77.15
             mi_visual_studio: 53.859
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 2
+            branches: 5
+            conditions: 4
+            magnitude: 6.708
+            assignments_average: 2
+            branches_average: 5
+            conditions_average: 4
+            assignments_min: 2
+            assignments_max: 2
+            branches_min: 5
+            branches_max: 5
+            conditions_min: 4
+            conditions_max: 4
     metrics:
       nargs:
         total_functions: 1
@@ -636,19 +684,19 @@ spaces:
         mi_sei: 54.462
         mi_visual_studio: 43.385
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 4
+        branches: 5
+        conditions: 5
+        magnitude: 8.124
+        assignments_average: 0.667
+        branches_average: 0.833
+        conditions_average: 0.833
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 2
         branches_min: 0
-        branches_max: 0
+        branches_max: 5
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 4
 metrics:
   nargs:
     total_functions: 1
@@ -738,16 +786,20 @@ metrics:
     mi_sei: 52.594
     mi_visual_studio: 41.931
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 4
+    branches: 5
+    conditions: 5
+    magnitude: 8.124
+    assignments_average: 0.571
+    branches_average: 0.714
+    conditions_average: 0.714
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 2
     branches_min: 0
-    branches_max: 0
+    branches_max: 5
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 4
+  wmc:
+    classes: 0
+    interfaces: 0
+    total: 0
