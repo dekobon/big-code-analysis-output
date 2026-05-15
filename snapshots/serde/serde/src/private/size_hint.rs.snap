@@ -1,6 +1,5 @@
 ---
 source: tests/common/mod.rs
-assertion_line: 51
 expression: funcspace_struct
 ---
 name: "[filepath]"
@@ -103,16 +102,16 @@ spaces:
         mi_visual_studio: 70.123
       abc:
         assignments: 0
-        branches: 0
+        branches: 2
         conditions: 0
-        magnitude: 0
+        magnitude: 2
         assignments_average: 0
-        branches_average: 0
+        branches_average: 2
         conditions_average: 0
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
+        branches_min: 2
+        branches_max: 2
         conditions_min: 0
         conditions_max: 0
   - name: cautious
@@ -210,16 +209,16 @@ spaces:
         mi_visual_studio: 76.36
       abc:
         assignments: 0
-        branches: 0
+        branches: 2
         conditions: 0
-        magnitude: 0
+        magnitude: 2
         assignments_average: 0
-        branches_average: 0
+        branches_average: 2
         conditions_average: 0
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
+        branches_min: 2
+        branches_max: 2
         conditions_min: 0
         conditions_max: 0
   - name: helper
@@ -317,18 +316,18 @@ spaces:
         mi_visual_studio: 67.243
       abc:
         assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
+        branches: 1
+        conditions: 2
+        magnitude: 2.236
         assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        branches_average: 1
+        conditions_average: 2
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        branches_min: 1
+        branches_max: 1
+        conditions_min: 2
+        conditions_max: 2
 metrics:
   nargs:
     total_functions: 3
@@ -419,15 +418,19 @@ metrics:
     mi_visual_studio: 51.549
   abc:
     assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
+    branches: 5
+    conditions: 2
+    magnitude: 5.385
     assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    branches_average: 1.25
+    conditions_average: 0.5
     assignments_min: 0
     assignments_max: 0
     branches_min: 0
-    branches_max: 0
+    branches_max: 2
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 2
+  wmc:
+    classes: 0
+    interfaces: 0
+    total: 0
