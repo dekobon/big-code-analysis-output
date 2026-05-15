@@ -119,6 +119,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 0
+            interfaces: 0
+            total: 0
+          npm:
+            classes: 0
+            interfaces: 0
+            class_methods: 0
+            interface_methods: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_methods: 0
+            average: NaN
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: internal
         start_line: 33
         end_line: 237
@@ -223,19 +247,19 @@ spaces:
                     mi_sei: 67.863
                     mi_visual_studio: 58.111
                   abc:
-                    assignments: 0
-                    branches: 0
-                    conditions: 0
-                    magnitude: 0
-                    assignments_average: 0
-                    branches_average: 0
-                    conditions_average: 0
-                    assignments_min: 0
-                    assignments_max: 0
-                    branches_min: 0
-                    branches_max: 0
-                    conditions_min: 0
-                    conditions_max: 0
+                    assignments: 1
+                    branches: 3
+                    conditions: 1
+                    magnitude: 3.317
+                    assignments_average: 1
+                    branches_average: 3
+                    conditions_average: 1
+                    assignments_min: 1
+                    assignments_max: 1
+                    branches_min: 3
+                    branches_max: 3
+                    conditions_min: 1
+                    conditions_max: 1
               - name: Start
                 start_line: 66
                 end_line: 66
@@ -1079,15 +1103,15 @@ spaces:
                     mi_sei: 104.619
                     mi_visual_studio: 73.051
                   abc:
-                    assignments: 0
+                    assignments: 2
                     branches: 0
                     conditions: 0
-                    magnitude: 0
-                    assignments_average: 0
+                    magnitude: 2
+                    assignments_average: 2
                     branches_average: 0
                     conditions_average: 0
-                    assignments_min: 0
-                    assignments_max: 0
+                    assignments_min: 2
+                    assignments_max: 2
                     branches_min: 0
                     branches_max: 0
                     conditions_min: 0
@@ -1186,15 +1210,15 @@ spaces:
                     mi_sei: 88.313
                     mi_visual_studio: 66.442
                   abc:
-                    assignments: 0
+                    assignments: 4
                     branches: 0
                     conditions: 0
-                    magnitude: 0
-                    assignments_average: 0
+                    magnitude: 4
+                    assignments_average: 4
                     branches_average: 0
                     conditions_average: 0
-                    assignments_min: 0
-                    assignments_max: 0
+                    assignments_min: 4
+                    assignments_max: 4
                     branches_min: 0
                     branches_max: 0
                     conditions_min: 0
@@ -1299,16 +1323,16 @@ spaces:
                         mi_visual_studio: 90.045
                       abc:
                         assignments: 0
-                        branches: 0
+                        branches: 1
                         conditions: 0
-                        magnitude: 0
+                        magnitude: 1
                         assignments_average: 0
-                        branches_average: 0
+                        branches_average: 1
                         conditions_average: 0
                         assignments_min: 0
                         assignments_max: 0
-                        branches_min: 0
-                        branches_max: 0
+                        branches_min: 1
+                        branches_max: 1
                         conditions_min: 0
                         conditions_max: 0
                 metrics:
@@ -1401,18 +1425,42 @@ spaces:
                     mi_visual_studio: 64.942
                   abc:
                     assignments: 0
-                    branches: 0
+                    branches: 1
                     conditions: 0
-                    magnitude: 0
+                    magnitude: 1
                     assignments_average: 0
-                    branches_average: 0
+                    branches_average: 0.5
                     conditions_average: 0
                     assignments_min: 0
                     assignments_max: 0
                     branches_min: 0
-                    branches_max: 0
+                    branches_max: 1
                     conditions_min: 0
                     conditions_max: 0
+                  wmc:
+                    classes: 1
+                    interfaces: 0
+                    total: 1
+                  npm:
+                    classes: 1
+                    interfaces: 0
+                    class_methods: 1
+                    interface_methods: 0
+                    classes_average: 1
+                    interfaces_average: NaN
+                    total: 1
+                    total_methods: 1
+                    average: 1
+                  npa:
+                    classes: 5
+                    interfaces: 0
+                    class_attributes: 5
+                    interface_attributes: 0
+                    classes_average: 1
+                    interfaces_average: NaN
+                    total: 5
+                    total_attributes: 5
+                    average: 1
               - name: ConstFstImpl
                 start_line: 130
                 end_line: 130
@@ -1716,19 +1764,43 @@ spaces:
                 mi_sei: 35.159
                 mi_visual_studio: 30.785
               abc:
-                assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
+                assignments: 7
+                branches: 4
+                conditions: 1
+                magnitude: 8.124
+                assignments_average: 0.467
+                branches_average: 0.267
+                conditions_average: 0.067
                 assignments_min: 0
-                assignments_max: 0
+                assignments_max: 4
                 branches_min: 0
-                branches_max: 0
+                branches_max: 3
                 conditions_min: 0
-                conditions_max: 0
+                conditions_max: 1
+              wmc:
+                classes: 14
+                interfaces: 0
+                total: 14
+              npm:
+                classes: 13
+                interfaces: 0
+                class_methods: 15
+                interface_methods: 0
+                classes_average: 0.867
+                interfaces_average: NaN
+                total: 13
+                total_methods: 15
+                average: 0.867
+              npa:
+                classes: 5
+                interfaces: 0
+                class_attributes: 16
+                interface_attributes: 0
+                classes_average: 0.313
+                interfaces_average: NaN
+                total: 5
+                total_attributes: 16
+                average: 0.313
           - name: "ConstFstImpl<Arc, Unsigned>::ConstFstImpl"
             start_line: 147
             end_line: 192
@@ -1823,19 +1895,19 @@ spaces:
                 mi_sei: 32.531
                 mi_visual_studio: 38.911
               abc:
-                assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                assignments: 17
+                branches: 28
+                conditions: 5
+                magnitude: 33.136
+                assignments_average: 17
+                branches_average: 28
+                conditions_average: 5
+                assignments_min: 17
+                assignments_max: 17
+                branches_min: 28
+                branches_max: 28
+                conditions_min: 5
+                conditions_max: 5
           - name: "ConstFstImpl<Arc, Unsigned>::Read"
             start_line: 195
             end_line: 235
@@ -1930,19 +2002,19 @@ spaces:
                 mi_sei: 36.356
                 mi_visual_studio: 40.112
               abc:
-                assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                assignments: 6
+                branches: 25
+                conditions: 7
+                magnitude: 26.646
+                assignments_average: 6
+                branches_average: 25
+                conditions_average: 7
+                assignments_min: 6
+                assignments_max: 6
+                branches_min: 25
+                branches_max: 25
+                conditions_min: 7
+                conditions_max: 7
         metrics:
           nargs:
             total_functions: 9
@@ -2032,19 +2104,19 @@ spaces:
             mi_sei: -4.084
             mi_visual_studio: 17.065
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            assignments: 30
+            branches: 57
+            conditions: 13
+            magnitude: 65.711
+            assignments_average: 1.667
+            branches_average: 3.167
+            conditions_average: 0.722
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 17
             branches_min: 0
-            branches_max: 0
+            branches_max: 28
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 7
       - name: ConstFst
         start_line: 244
         end_line: 325
@@ -2145,16 +2217,16 @@ spaces:
                 mi_visual_studio: 87.98
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: ConstFst
@@ -2252,16 +2324,16 @@ spaces:
                 mi_visual_studio: 79.834
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: ConstFst
@@ -2466,16 +2538,16 @@ spaces:
                 mi_visual_studio: 75.154
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: Read
@@ -2573,18 +2645,18 @@ spaces:
                 mi_visual_studio: 66.215
               abc:
                 assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
+                branches: 3
+                conditions: 1
+                magnitude: 3.162
                 assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
+                branches_average: 3
+                conditions_average: 1
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                branches_min: 3
+                branches_max: 3
+                conditions_min: 1
+                conditions_max: 1
           - name: Read
             start_line: 281
             end_line: 285
@@ -2680,18 +2752,18 @@ spaces:
                 mi_visual_studio: 68.172
               abc:
                 assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
+                branches: 3
+                conditions: 1
+                magnitude: 3.162
                 assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
+                branches_average: 3
+                conditions_average: 1
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                branches_min: 3
+                branches_max: 3
+                conditions_min: 1
+                conditions_max: 1
           - name: Write
             start_line: 287
             end_line: 289
@@ -2787,16 +2859,16 @@ spaces:
                 mi_visual_studio: 76.055
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: Write
@@ -2894,16 +2966,16 @@ spaces:
                 mi_visual_studio: 76.698
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: InitStateIterator
@@ -3001,16 +3073,16 @@ spaces:
                 mi_visual_studio: 76.863
               abc:
                 assignments: 0
-                branches: 0
+                branches: 2
                 conditions: 0
-                magnitude: 0
+                magnitude: 2
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 2
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 2
+                branches_max: 2
                 conditions_min: 0
                 conditions_max: 0
           - name: InitArcIterator
@@ -3108,16 +3180,16 @@ spaces:
                 mi_visual_studio: 75.842
               abc:
                 assignments: 0
-                branches: 0
+                branches: 2
                 conditions: 0
-                magnitude: 0
+                magnitude: 2
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 2
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 2
+                branches_max: 2
                 conditions_min: 0
                 conditions_max: 0
           - name: ConstFst
@@ -3322,16 +3394,16 @@ spaces:
                 mi_visual_studio: 77.55
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: GetImplIfConstFst
@@ -3638,18 +3710,42 @@ spaces:
             mi_visual_studio: 32.137
           abc:
             assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
+            branches: 16
+            conditions: 2
+            magnitude: 16.125
             assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            branches_average: 1.067
+            conditions_average: 0.133
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 3
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 1
+          wmc:
+            classes: 16
+            interfaces: 0
+            total: 16
+          npm:
+            classes: 12
+            interfaces: 0
+            class_methods: 15
+            interface_methods: 0
+            classes_average: 0.8
+            interfaces_average: NaN
+            total: 12
+            total_methods: 15
+            average: 0.8
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: "ConstFst<Arc, Unsigned>::WriteFst"
         start_line: 331
         end_line: 424
@@ -3744,19 +3840,19 @@ spaces:
             mi_sei: 18.744
             mi_visual_studio: 29.225
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 17
+            branches: 45
+            conditions: 10
+            magnitude: 49.132
+            assignments_average: 17
+            branches_average: 45
+            conditions_average: 10
+            assignments_min: 17
+            assignments_max: 17
+            branches_min: 45
+            branches_max: 45
+            conditions_min: 10
+            conditions_max: 10
       - name: "StateIterator<ConstFst<Arc, Unsigned>>"
         start_line: 429
         end_line: 447
@@ -3857,16 +3953,16 @@ spaces:
                 mi_visual_studio: 79.112
               abc:
                 assignments: 0
-                branches: 0
+                branches: 2
                 conditions: 0
-                magnitude: 0
+                magnitude: 2
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 2
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 2
+                branches_max: 2
                 conditions_min: 0
                 conditions_max: 0
           - name: Done
@@ -3965,17 +4061,17 @@ spaces:
               abc:
                 assignments: 0
                 branches: 0
-                conditions: 0
-                magnitude: 0
+                conditions: 1
+                magnitude: 1
                 assignments_average: 0
                 branches_average: 0
-                conditions_average: 0
+                conditions_average: 1
                 assignments_min: 0
                 assignments_max: 0
                 branches_min: 0
                 branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                conditions_min: 1
+                conditions_max: 1
           - name: Value
             start_line: 438
             end_line: 438
@@ -4177,15 +4273,15 @@ spaces:
                 mi_sei: 148.428
                 mi_visual_studio: 90.809
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                magnitude: 1
+                assignments_average: 1
                 branches_average: 0
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
                 conditions_min: 0
@@ -4284,15 +4380,15 @@ spaces:
                 mi_sei: 146.928
                 mi_visual_studio: 90.201
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                magnitude: 1
+                assignments_average: 1
                 branches_average: 0
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
                 conditions_min: 0
@@ -4386,19 +4482,43 @@ spaces:
             mi_sei: 55.95
             mi_visual_studio: 53.117
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            assignments: 2
+            branches: 2
+            conditions: 1
+            magnitude: 3
+            assignments_average: 0.333
+            branches_average: 0.333
+            conditions_average: 0.167
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 1
             branches_min: 0
-            branches_max: 0
+            branches_max: 2
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 1
+          wmc:
+            classes: 5
+            interfaces: 0
+            total: 5
+          npm:
+            classes: 5
+            interfaces: 0
+            class_methods: 5
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 5
+            total_methods: 5
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 2
+            interface_attributes: 0
+            classes_average: 0
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 2
+            average: 0
       - name: "ArcIterator<ConstFst<Arc, Unsigned>>"
         start_line: 452
         end_line: 481
@@ -4499,16 +4619,16 @@ spaces:
                 mi_visual_studio: 70.925
               abc:
                 assignments: 0
-                branches: 0
+                branches: 4
                 conditions: 0
-                magnitude: 0
+                magnitude: 4
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 4
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 4
+                branches_max: 4
                 conditions_min: 0
                 conditions_max: 0
           - name: Done
@@ -4607,17 +4727,17 @@ spaces:
               abc:
                 assignments: 0
                 branches: 0
-                conditions: 0
-                magnitude: 0
+                conditions: 1
+                magnitude: 1
                 assignments_average: 0
                 branches_average: 0
-                conditions_average: 0
+                conditions_average: 1
                 assignments_min: 0
                 assignments_max: 0
                 branches_min: 0
                 branches_max: 0
-                conditions_min: 0
-                conditions_max: 0
+                conditions_min: 1
+                conditions_max: 1
           - name: Value
             start_line: 463
             end_line: 463
@@ -4819,15 +4939,15 @@ spaces:
                 mi_sei: 148.428
                 mi_visual_studio: 90.809
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                magnitude: 1
+                assignments_average: 1
                 branches_average: 0
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
                 conditions_min: 0
@@ -5033,15 +5153,15 @@ spaces:
                 mi_sei: 146.928
                 mi_visual_studio: 90.201
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                magnitude: 1
+                assignments_average: 1
                 branches_average: 0
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
                 conditions_min: 0
@@ -5140,15 +5260,15 @@ spaces:
                 mi_sei: 144.841
                 mi_visual_studio: 89.355
               abc:
-                assignments: 0
+                assignments: 1
                 branches: 0
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
+                magnitude: 1
+                assignments_average: 1
                 branches_average: 0
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
+                assignments_min: 1
+                assignments_max: 1
                 branches_min: 0
                 branches_max: 0
                 conditions_min: 0
@@ -5456,19 +5576,43 @@ spaces:
             mi_sei: 39.8
             mi_visual_studio: 46.405
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            assignments: 3
+            branches: 4
+            conditions: 1
+            magnitude: 5.099
+            assignments_average: 0.3
+            branches_average: 0.4
+            conditions_average: 0.1
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 1
             branches_min: 0
-            branches_max: 0
+            branches_max: 4
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 1
+          wmc:
+            classes: 9
+            interfaces: 0
+            total: 9
+          npm:
+            classes: 9
+            interfaces: 0
+            class_methods: 9
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 9
+            total_methods: 9
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 3
+            interface_attributes: 0
+            classes_average: 0
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 3
+            average: 0
     metrics:
       nargs:
         total_functions: 28
@@ -5558,19 +5702,19 @@ spaces:
         mi_sei: -42.651
         mi_visual_studio: 0
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 52
+        branches: 124
+        conditions: 27
+        magnitude: 137.146
+        assignments_average: 1
+        branches_average: 2.385
+        conditions_average: 0.519
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 17
         branches_min: 0
-        branches_max: 0
+        branches_max: 45
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 10
 metrics:
   nargs:
     total_functions: 28
@@ -5660,16 +5804,20 @@ metrics:
     mi_sei: -42.917
     mi_visual_studio: 0
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 52
+    branches: 124
+    conditions: 27
+    magnitude: 137.146
+    assignments_average: 0.981
+    branches_average: 2.34
+    conditions_average: 0.509
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 17
     branches_min: 0
-    branches_max: 0
+    branches_max: 45
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 10
+  wmc:
+    classes: 44
+    interfaces: 0
+    total: 44

@@ -224,16 +224,16 @@ spaces:
                     mi_visual_studio: 75.581
                   abc:
                     assignments: 0
-                    branches: 0
+                    branches: 1
                     conditions: 0
-                    magnitude: 0
+                    magnitude: 1
                     assignments_average: 0
-                    branches_average: 0
+                    branches_average: 1
                     conditions_average: 0
                     assignments_min: 0
                     assignments_max: 0
-                    branches_min: 0
-                    branches_max: 0
+                    branches_min: 1
+                    branches_max: 1
                     conditions_min: 0
                     conditions_max: 0
               - name: Destroy
@@ -331,18 +331,18 @@ spaces:
                     mi_visual_studio: 65.68
                   abc:
                     assignments: 0
-                    branches: 0
-                    conditions: 0
-                    magnitude: 0
+                    branches: 1
+                    conditions: 2
+                    magnitude: 2.236
                     assignments_average: 0
-                    branches_average: 0
-                    conditions_average: 0
+                    branches_average: 1
+                    conditions_average: 2
                     assignments_min: 0
                     assignments_max: 0
-                    branches_min: 0
-                    branches_max: 0
-                    conditions_min: 0
-                    conditions_max: 0
+                    branches_min: 1
+                    branches_max: 1
+                    conditions_min: 2
+                    conditions_max: 2
             metrics:
               nargs:
                 total_functions: 4
@@ -433,18 +433,42 @@ spaces:
                 mi_visual_studio: 51.419
               abc:
                 assignments: 0
-                branches: 0
-                conditions: 0
-                magnitude: 0
+                branches: 2
+                conditions: 2
+                magnitude: 2.828
                 assignments_average: 0
-                branches_average: 0
-                conditions_average: 0
+                branches_average: 0.5
+                conditions_average: 0.5
                 assignments_min: 0
                 assignments_max: 0
                 branches_min: 0
-                branches_max: 0
+                branches_max: 1
                 conditions_min: 0
-                conditions_max: 0
+                conditions_max: 2
+              wmc:
+                classes: 4
+                interfaces: 0
+                total: 4
+              npm:
+                classes: 3
+                interfaces: 0
+                class_methods: 3
+                interface_methods: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 3
+                total_methods: 3
+                average: 1
+              npa:
+                classes: 2
+                interfaces: 0
+                class_attributes: 2
+                interface_attributes: 0
+                classes_average: 1
+                interfaces_average: NaN
+                total: 2
+                total_attributes: 2
+                average: 1
         metrics:
           nargs:
             total_functions: 4
@@ -535,18 +559,18 @@ spaces:
             mi_visual_studio: 48.707
           abc:
             assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
+            branches: 2
+            conditions: 2
+            magnitude: 2.828
             assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
+            branches_average: 0.4
+            conditions_average: 0.4
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 1
             conditions_min: 0
-            conditions_max: 0
+            conditions_max: 2
       - name: DfsVisit
         start_line: 94
         end_line: 195
@@ -641,19 +665,19 @@ spaces:
             mi_sei: 21.518
             mi_visual_studio: 27.77
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 15
+            branches: 40
+            conditions: 18
+            magnitude: 46.357
+            assignments_average: 15
+            branches_average: 40
+            conditions_average: 18
+            assignments_min: 15
+            assignments_max: 15
+            branches_min: 40
+            branches_max: 40
+            conditions_min: 18
+            conditions_max: 18
       - name: DfsVisit
         start_line: 198
         end_line: 200
@@ -749,16 +773,16 @@ spaces:
             mi_visual_studio: 75.334
           abc:
             assignments: 0
-            branches: 0
+            branches: 2
             conditions: 0
-            magnitude: 0
+            magnitude: 2
             assignments_average: 0
-            branches_average: 0
+            branches_average: 2
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
-            branches_min: 0
-            branches_max: 0
+            branches_min: 2
+            branches_max: 2
             conditions_min: 0
             conditions_max: 0
     metrics:
@@ -850,19 +874,19 @@ spaces:
         mi_sei: 16.542
         mi_visual_studio: 20.264
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 15
+        branches: 44
+        conditions: 20
+        magnitude: 50.606
+        assignments_average: 1.875
+        branches_average: 5.5
+        conditions_average: 2.5
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 15
         branches_min: 0
-        branches_max: 0
+        branches_max: 40
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 18
 metrics:
   nargs:
     total_functions: 10
@@ -952,16 +976,20 @@ metrics:
     mi_sei: 14.323
     mi_visual_studio: 19.241
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 15
+    branches: 44
+    conditions: 20
+    magnitude: 50.606
+    assignments_average: 1.667
+    branches_average: 4.889
+    conditions_average: 2.222
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 15
     branches_min: 0
-    branches_max: 0
+    branches_max: 40
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 18
+  wmc:
+    classes: 4
+    interfaces: 0
+    total: 4

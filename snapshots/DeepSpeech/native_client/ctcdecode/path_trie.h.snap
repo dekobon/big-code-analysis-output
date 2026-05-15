@@ -221,6 +221,30 @@ spaces:
         branches_max: 0
         conditions_min: 0
         conditions_max: 0
+      wmc:
+        classes: 1
+        interfaces: 0
+        total: 1
+      npm:
+        classes: 1
+        interfaces: 0
+        class_methods: 1
+        interface_methods: 0
+        classes_average: 1
+        interfaces_average: NaN
+        total: 1
+        total_methods: 1
+        average: 1
+      npa:
+        classes: 3
+        interfaces: 0
+        class_attributes: 3
+        interface_attributes: 0
+        classes_average: 1
+        interfaces_average: NaN
+        total: 3
+        total_attributes: 3
+        average: 1
   - name: PathTrie
     start_line: 44
     end_line: 113
@@ -322,17 +346,17 @@ spaces:
           abc:
             assignments: 0
             branches: 0
-            conditions: 0
-            magnitude: 0
+            conditions: 1
+            magnitude: 1
             assignments_average: 0
             branches_average: 0
-            conditions_average: 0
+            conditions_average: 1
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
             branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            conditions_min: 1
+            conditions_max: 1
     metrics:
       nargs:
         total_functions: 0
@@ -424,17 +448,41 @@ spaces:
       abc:
         assignments: 0
         branches: 0
-        conditions: 0
-        magnitude: 0
+        conditions: 1
+        magnitude: 1
         assignments_average: 0
         branches_average: 0
-        conditions_average: 0
+        conditions_average: 0.5
         assignments_min: 0
         assignments_max: 0
         branches_min: 0
         branches_max: 0
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 1
+      wmc:
+        classes: 1
+        interfaces: 0
+        total: 1
+      npm:
+        classes: 12
+        interfaces: 0
+        class_methods: 12
+        interface_methods: 0
+        classes_average: 1
+        interfaces_average: NaN
+        total: 12
+        total_methods: 12
+        average: 1
+      npa:
+        classes: 12
+        interfaces: 0
+        class_attributes: 19
+        interface_attributes: 0
+        classes_average: 0.632
+        interfaces_average: NaN
+        total: 12
+        total_attributes: 19
+        average: 0.632
   - name: add_child
     start_line: 117
     end_line: 121
@@ -530,18 +578,18 @@ spaces:
         mi_visual_studio: 67.378
       abc:
         assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
+        branches: 5
+        conditions: 1
+        magnitude: 5.099
         assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        branches_average: 5
+        conditions_average: 1
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        branches_min: 5
+        branches_max: 5
+        conditions_min: 1
+        conditions_max: 1
   - name: get_history_helper
     start_line: 124
     end_line: 130
@@ -637,18 +685,18 @@ spaces:
         mi_visual_studio: 63.943
       abc:
         assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
+        branches: 4
+        conditions: 3
+        magnitude: 5
         assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        branches_average: 4
+        conditions_average: 3
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        branches_min: 4
+        branches_max: 4
+        conditions_min: 3
+        conditions_max: 3
   - name: get_history
     start_line: 132
     end_line: 136
@@ -744,16 +792,16 @@ spaces:
         mi_visual_studio: 69.058
       abc:
         assignments: 0
-        branches: 0
+        branches: 1
         conditions: 0
-        magnitude: 0
+        magnitude: 1
         assignments_average: 0
-        branches_average: 0
+        branches_average: 1
         conditions_average: 0
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
+        branches_min: 1
+        branches_max: 1
         conditions_min: 0
         conditions_max: 0
 metrics:
@@ -846,15 +894,19 @@ metrics:
     mi_visual_studio: 26.851
   abc:
     assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
+    branches: 10
+    conditions: 6
+    magnitude: 11.662
     assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    branches_average: 1.25
+    conditions_average: 0.75
     assignments_min: 0
     assignments_max: 0
     branches_min: 0
-    branches_max: 0
+    branches_max: 5
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 3
+  wmc:
+    classes: 2
+    interfaces: 0
+    total: 2

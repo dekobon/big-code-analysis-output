@@ -112,16 +112,16 @@ spaces:
                 mi_visual_studio: 66.214
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -214,18 +214,42 @@ spaces:
             mi_visual_studio: 61.583
           abc:
             assignments: 0
-            branches: 0
+            branches: 1
             conditions: 0
-            magnitude: 0
+            magnitude: 1
             assignments_average: 0
-            branches_average: 0
+            branches_average: 0.5
             conditions_average: 0
             assignments_min: 0
             assignments_max: 0
             branches_min: 0
-            branches_max: 0
+            branches_max: 1
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: DifferenceFst
         start_line: 45
         end_line: 111
@@ -326,16 +350,16 @@ spaces:
                 mi_visual_studio: 62.664
               abc:
                 assignments: 0
-                branches: 0
+                branches: 6
                 conditions: 0
-                magnitude: 0
+                magnitude: 6
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 6
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 6
+                branches_max: 6
                 conditions_min: 0
                 conditions_max: 0
           - name: DifferenceFst
@@ -433,16 +457,16 @@ spaces:
                 mi_visual_studio: 60.21
               abc:
                 assignments: 0
-                branches: 0
+                branches: 5
                 conditions: 0
-                magnitude: 0
+                magnitude: 5
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 5
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 5
+                branches_max: 5
                 conditions_min: 0
                 conditions_max: 0
           - name: DifferenceFst
@@ -647,16 +671,16 @@ spaces:
                 mi_visual_studio: 75.707
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: CreateDifferenceImplWithCacheOpts
@@ -754,16 +778,16 @@ spaces:
                 mi_visual_studio: 60.575
               abc:
                 assignments: 0
-                branches: 0
+                branches: 1
                 conditions: 0
-                magnitude: 0
+                magnitude: 1
                 assignments_average: 0
-                branches_average: 0
+                branches_average: 1
                 conditions_average: 0
                 assignments_min: 0
                 assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                branches_min: 1
+                branches_max: 1
                 conditions_min: 0
                 conditions_max: 0
           - name: CreateDifferenceImplWithDifferenceOpts
@@ -860,17 +884,17 @@ spaces:
                 mi_sei: 64.926
                 mi_visual_studio: 56.962
               abc:
-                assignments: 0
-                branches: 0
+                assignments: 2
+                branches: 3
                 conditions: 0
-                magnitude: 0
-                assignments_average: 0
-                branches_average: 0
+                magnitude: 3.606
+                assignments_average: 2
+                branches_average: 3
                 conditions_average: 0
-                assignments_min: 0
-                assignments_max: 0
-                branches_min: 0
-                branches_max: 0
+                assignments_min: 2
+                assignments_max: 2
+                branches_min: 3
+                branches_max: 3
                 conditions_min: 0
                 conditions_max: 0
         metrics:
@@ -962,19 +986,43 @@ spaces:
             mi_sei: 27.726
             mi_visual_studio: 35.027
           abc:
-            assignments: 0
-            branches: 0
+            assignments: 2
+            branches: 16
             conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
+            magnitude: 16.125
+            assignments_average: 0.286
+            branches_average: 2.286
             conditions_average: 0
             assignments_min: 0
-            assignments_max: 0
+            assignments_max: 2
             branches_min: 0
-            branches_max: 0
+            branches_max: 6
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 8
+            interfaces: 0
+            total: 8
+          npm:
+            classes: 3
+            interfaces: 0
+            class_methods: 4
+            interface_methods: 0
+            classes_average: 0.75
+            interfaces_average: NaN
+            total: 3
+            total_methods: 4
+            average: 0.75
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: StateIterator<DifferenceFst<Arc>>
         start_line: 115
         end_line: 120
@@ -1189,6 +1237,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: ArcIterator<DifferenceFst<Arc>>
         start_line: 124
         end_line: 130
@@ -1403,6 +1475,30 @@ spaces:
             branches_max: 0
             conditions_min: 0
             conditions_max: 0
+          wmc:
+            classes: 1
+            interfaces: 0
+            total: 1
+          npm:
+            classes: 1
+            interfaces: 0
+            class_methods: 1
+            interface_methods: 0
+            classes_average: 1
+            interfaces_average: NaN
+            total: 1
+            total_methods: 1
+            average: 1
+          npa:
+            classes: 0
+            interfaces: 0
+            class_attributes: 0
+            interface_attributes: 0
+            classes_average: NaN
+            interfaces_average: NaN
+            total: 0
+            total_attributes: 0
+            average: NaN
       - name: Difference
         start_line: 151
         end_line: 173
@@ -1497,19 +1593,19 @@ spaces:
             mi_sei: 74.1
             mi_visual_studio: 48.272
           abc:
-            assignments: 0
-            branches: 0
-            conditions: 0
-            magnitude: 0
-            assignments_average: 0
-            branches_average: 0
-            conditions_average: 0
-            assignments_min: 0
-            assignments_max: 0
-            branches_min: 0
-            branches_max: 0
-            conditions_min: 0
-            conditions_max: 0
+            assignments: 8
+            branches: 6
+            conditions: 7
+            magnitude: 12.207
+            assignments_average: 8
+            branches_average: 6
+            conditions_average: 7
+            assignments_min: 8
+            assignments_max: 8
+            branches_min: 6
+            branches_max: 6
+            conditions_min: 7
+            conditions_max: 7
     metrics:
       nargs:
         total_functions: 26
@@ -1599,19 +1695,19 @@ spaces:
         mi_sei: 14.711
         mi_visual_studio: 22.761
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        assignments: 10
+        branches: 23
+        conditions: 7
+        magnitude: 26.038
+        assignments_average: 0.667
+        branches_average: 1.533
+        conditions_average: 0.467
         assignments_min: 0
-        assignments_max: 0
+        assignments_max: 8
         branches_min: 0
-        branches_max: 0
+        branches_max: 6
         conditions_min: 0
-        conditions_max: 0
+        conditions_max: 7
 metrics:
   nargs:
     total_functions: 26
@@ -1701,16 +1797,20 @@ metrics:
     mi_sei: 12.809
     mi_visual_studio: 21.597
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 10
+    branches: 23
+    conditions: 7
+    magnitude: 26.038
+    assignments_average: 0.625
+    branches_average: 1.438
+    conditions_average: 0.438
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 8
     branches_min: 0
-    branches_max: 0
+    branches_max: 6
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 7
+  wmc:
+    classes: 11
+    interfaces: 0
+    total: 11

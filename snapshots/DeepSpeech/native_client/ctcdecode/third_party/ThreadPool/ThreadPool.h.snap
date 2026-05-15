@@ -103,17 +103,41 @@ spaces:
       abc:
         assignments: 0
         branches: 0
-        conditions: 0
-        magnitude: 0
+        conditions: 2
+        magnitude: 2
         assignments_average: 0
         branches_average: 0
-        conditions_average: 0
+        conditions_average: 2
         assignments_min: 0
         assignments_max: 0
         branches_min: 0
         branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        conditions_min: 2
+        conditions_max: 2
+      wmc:
+        classes: 0
+        interfaces: 0
+        total: 0
+      npm:
+        classes: 3
+        interfaces: 0
+        class_methods: 3
+        interface_methods: 0
+        classes_average: 1
+        interfaces_average: NaN
+        total: 3
+        total_methods: 3
+        average: 1
+      npa:
+        classes: 0
+        interfaces: 0
+        class_attributes: 5
+        interface_attributes: 0
+        classes_average: 0
+        interfaces_average: NaN
+        total: 0
+        total_attributes: 5
+        average: 0
   - name: "ThreadPool::ThreadPool"
     start_line: 34
     end_line: 59
@@ -208,19 +232,19 @@ spaces:
         mi_sei: 45.707
         mi_visual_studio: 48.965
       abc:
-        assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
-        assignments_min: 0
-        assignments_max: 0
-        branches_min: 0
-        branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        assignments: 2
+        branches: 8
+        conditions: 3
+        magnitude: 8.775
+        assignments_average: 2
+        branches_average: 8
+        conditions_average: 3
+        assignments_min: 2
+        assignments_max: 2
+        branches_min: 8
+        branches_max: 8
+        conditions_min: 3
+        conditions_max: 3
   - name: "ThreadPool::enqueue"
     start_line: 63
     end_line: 84
@@ -316,18 +340,18 @@ spaces:
         mi_visual_studio: 50.286
       abc:
         assignments: 0
-        branches: 0
-        conditions: 0
-        magnitude: 0
+        branches: 9
+        conditions: 2
+        magnitude: 9.22
         assignments_average: 0
-        branches_average: 0
-        conditions_average: 0
+        branches_average: 9
+        conditions_average: 2
         assignments_min: 0
         assignments_max: 0
-        branches_min: 0
-        branches_max: 0
-        conditions_min: 0
-        conditions_max: 0
+        branches_min: 9
+        branches_max: 9
+        conditions_min: 2
+        conditions_max: 2
   - name: "ThreadPool::~ThreadPool"
     start_line: 87
     end_line: 96
@@ -422,17 +446,17 @@ spaces:
         mi_sei: 77.916
         mi_visual_studio: 62.186
       abc:
-        assignments: 0
-        branches: 0
+        assignments: 1
+        branches: 2
         conditions: 0
-        magnitude: 0
-        assignments_average: 0
-        branches_average: 0
+        magnitude: 2.236
+        assignments_average: 1
+        branches_average: 2
         conditions_average: 0
-        assignments_min: 0
-        assignments_max: 0
-        branches_min: 0
-        branches_max: 0
+        assignments_min: 1
+        assignments_max: 1
+        branches_min: 2
+        branches_max: 2
         conditions_min: 0
         conditions_max: 0
 metrics:
@@ -524,16 +548,20 @@ metrics:
     mi_sei: 22.437
     mi_visual_studio: 30.966
   abc:
-    assignments: 0
-    branches: 0
-    conditions: 0
-    magnitude: 0
-    assignments_average: 0
-    branches_average: 0
-    conditions_average: 0
+    assignments: 3
+    branches: 19
+    conditions: 7
+    magnitude: 20.469
+    assignments_average: 0.6
+    branches_average: 3.8
+    conditions_average: 1.4
     assignments_min: 0
-    assignments_max: 0
+    assignments_max: 2
     branches_min: 0
-    branches_max: 0
+    branches_max: 9
     conditions_min: 0
-    conditions_max: 0
+    conditions_max: 3
+  wmc:
+    classes: 0
+    interfaces: 0
+    total: 0
