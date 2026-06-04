@@ -24,16 +24,16 @@ spaces:
             spaces: []
             metrics:
               nargs:
-                total_functions: 0
-                total_closures: 0
-                average_functions: 0
-                average_closures: 0
+                function_args: 0
+                closure_args: 0
+                function_args_average: 0
+                closure_args_average: 0
                 total: 0
                 average: 0
-                functions_min: 0
-                functions_max: 0
-                closures_min: 0
-                closures_max: 0
+                function_args_min: 0
+                function_args_max: 0
+                closure_args_min: 0
+                closure_args_max: 0
               nexits:
                 sum: 0
                 average: 0
@@ -55,10 +55,10 @@ spaces:
                   min: 1
                   max: 1
               halstead:
-                n1: 0
-                N1: 0
-                n2: 1
-                N2: 1
+                unique_operators: 0
+                total_operators: 0
+                unique_operands: 1
+                total_operands: 1
                 length: 1
                 estimated_program_length: 0
                 purity_ratio: 0
@@ -107,9 +107,9 @@ spaces:
                 tokens_min: 2
                 tokens_max: 2
               mi:
-                mi_original: 0
-                mi_sei: 0
-                mi_visual_studio: 0
+                original: 0
+                sei: 0
+                visual_studio: 0
               abc:
                 assignments: 0
                 branches: 0
@@ -133,33 +133,33 @@ spaces:
                 interfaces: 0
                 class_methods: 0
                 interface_methods: 0
-                classes_average: 0
-                interfaces_average: 0
+                class_coa: 0
+                interface_coa: 0
                 total: 0
                 total_methods: 0
-                average: 0
+                coa: 0
               npa:
                 classes: 0
                 interfaces: 0
                 class_attributes: 0
                 interface_attributes: 0
-                classes_average: 0
-                interfaces_average: 0
+                class_cda: 0
+                interface_cda: 0
                 total: 0
                 total_attributes: 0
-                average: 0
+                cda: 0
         metrics:
           nargs:
-            total_functions: 0
-            total_closures: 0
-            average_functions: 0
-            average_closures: 0
+            function_args: 0
+            closure_args: 0
+            function_args_average: 0
+            closure_args_average: 0
             total: 0
             average: 0
-            functions_min: 0
-            functions_max: 0
-            closures_min: 0
-            closures_max: 0
+            function_args_min: 0
+            function_args_max: 0
+            closure_args_min: 0
+            closure_args_max: 0
           nexits:
             sum: 0
             average: 0
@@ -181,10 +181,10 @@ spaces:
               min: 1
               max: 1
           halstead:
-            n1: 2
-            N1: 2
-            n2: 2
-            N2: 2
+            unique_operators: 2
+            total_operators: 2
+            unique_operands: 2
+            total_operands: 2
             length: 4
             estimated_program_length: 4
             purity_ratio: 1
@@ -233,9 +233,9 @@ spaces:
             tokens_min: 2
             tokens_max: 5
           mi:
-            mi_original: 159.727
-            mi_sei: 154.94
-            mi_visual_studio: 93.408
+            original: 159.727
+            sei: 154.94
+            visual_studio: 93.408
           abc:
             assignments: 0
             branches: 0
@@ -252,16 +252,16 @@ spaces:
             conditions_max: 0
     metrics:
       nargs:
-        total_functions: 0
-        total_closures: 0
-        average_functions: 0
-        average_closures: 0
+        function_args: 0
+        closure_args: 0
+        function_args_average: 0
+        closure_args_average: 0
         total: 0
         average: 0
-        functions_min: 0
-        functions_max: 0
-        closures_min: 0
-        closures_max: 0
+        function_args_min: 0
+        function_args_max: 0
+        closure_args_min: 0
+        closure_args_max: 0
       nexits:
         sum: 0
         average: 0
@@ -283,10 +283,10 @@ spaces:
           min: 1
           max: 1
       halstead:
-        n1: 2
-        N1: 3
-        n2: 3
-        N2: 3
+        unique_operators: 2
+        total_operators: 3
+        unique_operands: 3
+        total_operands: 3
         length: 6
         estimated_program_length: 6.755
         purity_ratio: 1.126
@@ -335,9 +335,9 @@ spaces:
         tokens_min: 2
         tokens_max: 5
       mi:
-        mi_original: 156.612
-        mi_sei: 150.549
-        mi_visual_studio: 91.586
+        original: 156.612
+        sei: 150.549
+        visual_studio: 91.586
       abc:
         assignments: 0
         branches: 0
@@ -369,16 +369,16 @@ spaces:
             spaces: []
             metrics:
               nargs:
-                total_functions: 0
-                total_closures: 0
-                average_functions: 0
-                average_closures: 0
+                function_args: 0
+                closure_args: 0
+                function_args_average: 0
+                closure_args_average: 0
                 total: 0
                 average: 0
-                functions_min: 0
-                functions_max: 0
-                closures_min: 0
-                closures_max: 0
+                function_args_min: 0
+                function_args_max: 0
+                closure_args_min: 0
+                closure_args_max: 0
               nexits:
                 sum: 1
                 average: 1
@@ -400,10 +400,10 @@ spaces:
                   min: 1
                   max: 1
               halstead:
-                n1: 10
-                N1: 13
-                n2: 7
-                N2: 10
+                unique_operators: 10
+                total_operators: 13
+                unique_operands: 7
+                total_operands: 10
                 length: 23
                 estimated_program_length: 52.871
                 purity_ratio: 2.299
@@ -452,9 +452,9 @@ spaces:
                 tokens_min: 30
                 tokens_max: 30
               mi:
-                mi_original: 124.686
-                mi_sei: 104.285
-                mi_visual_studio: 72.916
+                original: 124.686
+                sei: 104.285
+                visual_studio: 72.916
               abc:
                 assignments: 0
                 branches: 2
@@ -476,16 +476,16 @@ spaces:
             spaces: []
             metrics:
               nargs:
-                total_functions: 1
-                total_closures: 0
-                average_functions: 1
-                average_closures: 0
+                function_args: 1
+                closure_args: 0
+                function_args_average: 1
+                closure_args_average: 0
                 total: 1
                 average: 1
-                functions_min: 1
-                functions_max: 1
-                closures_min: 0
-                closures_max: 0
+                function_args_min: 1
+                function_args_max: 1
+                closure_args_min: 0
+                closure_args_max: 0
               nexits:
                 sum: 1
                 average: 1
@@ -507,10 +507,10 @@ spaces:
                   min: 1
                   max: 1
               halstead:
-                n1: 8
-                N1: 12
-                n2: 6
-                N2: 13
+                unique_operators: 8
+                total_operators: 12
+                unique_operands: 6
+                total_operands: 13
                 length: 25
                 estimated_program_length: 39.51
                 purity_ratio: 1.58
@@ -559,9 +559,9 @@ spaces:
                 tokens_min: 32
                 tokens_max: 32
               mi:
-                mi_original: 129.282
-                mi_sei: 110.916
-                mi_visual_studio: 75.604
+                original: 129.282
+                sei: 110.916
+                visual_studio: 75.604
               abc:
                 assignments: 0
                 branches: 1
@@ -583,16 +583,16 @@ spaces:
             spaces: []
             metrics:
               nargs:
-                total_functions: 0
-                total_closures: 0
-                average_functions: 0
-                average_closures: 0
+                function_args: 0
+                closure_args: 0
+                function_args_average: 0
+                closure_args_average: 0
                 total: 0
                 average: 0
-                functions_min: 0
-                functions_max: 0
-                closures_min: 0
-                closures_max: 0
+                function_args_min: 0
+                function_args_max: 0
+                closure_args_min: 0
+                closure_args_max: 0
               nexits:
                 sum: 1
                 average: 1
@@ -614,10 +614,10 @@ spaces:
                   min: 1
                   max: 1
               halstead:
-                n1: 7
-                N1: 8
-                n2: 5
-                N2: 5
+                unique_operators: 7
+                total_operators: 8
+                unique_operands: 5
+                total_operands: 5
                 length: 13
                 estimated_program_length: 31.261
                 purity_ratio: 2.405
@@ -666,9 +666,9 @@ spaces:
                 tokens_min: 18
                 tokens_max: 18
               mi:
-                mi_original: 128.335
-                mi_sei: 159.258
-                mi_visual_studio: 75.05
+                original: 128.335
+                sei: 159.258
+                visual_studio: 75.05
               abc:
                 assignments: 0
                 branches: 1
@@ -685,16 +685,16 @@ spaces:
                 conditions_max: 0
         metrics:
           nargs:
-            total_functions: 1
-            total_closures: 0
-            average_functions: 0.333
-            average_closures: 0
+            function_args: 1
+            closure_args: 0
+            function_args_average: 0.333
+            closure_args_average: 0
             total: 1
             average: 0.333
-            functions_min: 0
-            functions_max: 1
-            closures_min: 0
-            closures_max: 0
+            function_args_min: 0
+            function_args_max: 1
+            closure_args_min: 0
+            closure_args_max: 0
           nexits:
             sum: 3
             average: 1
@@ -716,10 +716,10 @@ spaces:
               min: 1
               max: 1
           halstead:
-            n1: 16
-            N1: 47
-            n2: 16
-            N2: 35
+            unique_operators: 16
+            total_operators: 47
+            unique_operands: 16
+            total_operands: 35
             length: 82
             estimated_program_length: 128
             purity_ratio: 1.561
@@ -768,9 +768,9 @@ spaces:
             tokens_min: 18
             tokens_max: 32
           mi:
-            mi_original: 88.001
-            mi_sei: 2.183
-            mi_visual_studio: 51.463
+            original: 88.001
+            sei: 2.183
+            visual_studio: 51.463
           abc:
             assignments: 0
             branches: 4
@@ -794,21 +794,21 @@ spaces:
             interfaces: 0
             class_methods: 4
             interface_methods: 0
-            classes_average: 1
-            interfaces_average: 0
+            class_coa: 1
+            interface_coa: 0
             total: 4
             total_methods: 4
-            average: 1
+            coa: 1
           npa:
             classes: 0
             interfaces: 0
             class_attributes: 2
             interface_attributes: 0
-            classes_average: 0
-            interfaces_average: 0
+            class_cda: 0
+            interface_cda: 0
             total: 0
             total_attributes: 2
-            average: 0
+            cda: 0
       - name: PrintARPA
         start_line: 43
         end_line: 55
@@ -821,16 +821,16 @@ spaces:
             spaces: []
             metrics:
               nargs:
-                total_functions: 3
-                total_closures: 0
-                average_functions: 3
-                average_closures: 0
+                function_args: 3
+                closure_args: 0
+                function_args_average: 3
+                closure_args_average: 0
                 total: 3
                 average: 3
-                functions_min: 3
-                functions_max: 3
-                closures_min: 0
-                closures_max: 0
+                function_args_min: 3
+                function_args_max: 3
+                closure_args_min: 0
+                closure_args_max: 0
               nexits:
                 sum: 0
                 average: 0
@@ -852,10 +852,10 @@ spaces:
                   min: 1
                   max: 1
               halstead:
-                n1: 10
-                N1: 17
-                n2: 8
-                N2: 11
+                unique_operators: 10
+                total_operators: 17
+                unique_operands: 8
+                total_operands: 11
                 length: 28
                 estimated_program_length: 57.219
                 purity_ratio: 2.044
@@ -904,9 +904,9 @@ spaces:
                 tokens_min: 36
                 tokens_max: 36
               mi:
-                mi_original: 134.788
-                mi_sei: 118.86
-                mi_visual_studio: 78.824
+                original: 134.788
+                sei: 118.86
+                visual_studio: 78.824
               abc:
                 assignments: 0
                 branches: 0
@@ -923,16 +923,16 @@ spaces:
                 conditions_max: 0
         metrics:
           nargs:
-            total_functions: 3
-            total_closures: 0
-            average_functions: 3
-            average_closures: 0
+            function_args: 3
+            closure_args: 0
+            function_args_average: 3
+            closure_args_average: 0
             total: 3
             average: 3
-            functions_min: 0
-            functions_max: 3
-            closures_min: 0
-            closures_max: 0
+            function_args_min: 0
+            function_args_max: 3
+            closure_args_min: 0
+            closure_args_max: 0
           nexits:
             sum: 0
             average: 0
@@ -954,10 +954,10 @@ spaces:
               min: 1
               max: 1
           halstead:
-            n1: 12
-            N1: 35
-            n2: 11
-            N2: 19
+            unique_operators: 12
+            total_operators: 35
+            unique_operands: 11
+            total_operands: 19
             length: 54
             estimated_program_length: 81.073
             purity_ratio: 1.501
@@ -1006,9 +1006,9 @@ spaces:
             tokens_min: 35
             tokens_max: 36
           mi:
-            mi_original: 100.397
-            mi_sei: 23.603
-            mi_visual_studio: 58.712
+            original: 100.397
+            sei: 23.603
+            visual_studio: 58.712
           abc:
             assignments: 0
             branches: 0
@@ -1032,33 +1032,33 @@ spaces:
             interfaces: 0
             class_methods: 2
             interface_methods: 0
-            classes_average: 1
-            interfaces_average: 0
+            class_coa: 1
+            interface_coa: 0
             total: 2
             total_methods: 2
-            average: 1
+            coa: 1
           npa:
             classes: 0
             interfaces: 0
             class_attributes: 3
             interface_attributes: 0
-            classes_average: 0
-            interfaces_average: 0
+            class_cda: 0
+            interface_cda: 0
             total: 0
             total_attributes: 3
-            average: 0
+            cda: 0
     metrics:
       nargs:
-        total_functions: 4
-        total_closures: 0
-        average_functions: 1
-        average_closures: 0
+        function_args: 4
+        closure_args: 0
+        function_args_average: 1
+        closure_args_average: 0
         total: 4
         average: 1
-        functions_min: 0
-        functions_max: 3
-        closures_min: 0
-        closures_max: 0
+        function_args_min: 0
+        function_args_max: 3
+        closure_args_min: 0
+        closure_args_max: 0
       nexits:
         sum: 3
         average: 0.75
@@ -1080,10 +1080,10 @@ spaces:
           min: 1
           max: 1
       halstead:
-        n1: 19
-        N1: 85
-        n2: 27
-        N2: 55
+        unique_operators: 19
+        total_operators: 85
+        unique_operands: 27
+        total_operands: 55
         length: 140
         estimated_program_length: 209.093
         purity_ratio: 1.494
@@ -1132,9 +1132,9 @@ spaces:
         tokens_min: 6
         tokens_max: 36
       mi:
-        mi_original: 74.647
-        mi_sei: -10.642
-        mi_visual_studio: 43.653
+        original: 74.647
+        sei: -10.642
+        visual_studio: 43.653
       abc:
         assignments: 0
         branches: 4
@@ -1151,16 +1151,16 @@ spaces:
         conditions_max: 1
 metrics:
   nargs:
-    total_functions: 4
-    total_closures: 0
-    average_functions: 1
-    average_closures: 0
+    function_args: 4
+    closure_args: 0
+    function_args_average: 1
+    closure_args_average: 0
     total: 4
     average: 1
-    functions_min: 0
-    functions_max: 3
-    closures_min: 0
-    closures_max: 0
+    function_args_min: 0
+    function_args_max: 3
+    closure_args_min: 0
+    closure_args_max: 0
   nexits:
     sum: 3
     average: 0.75
@@ -1182,10 +1182,10 @@ metrics:
       min: 1
       max: 1
   halstead:
-    n1: 19
-    N1: 88
-    n2: 33
-    N2: 63
+    unique_operators: 19
+    total_operators: 88
+    unique_operands: 33
+    total_operands: 63
     length: 151
     estimated_program_length: 247.176
     purity_ratio: 1.637
@@ -1234,9 +1234,9 @@ metrics:
     tokens_min: 2
     tokens_max: 36
   mi:
-    mi_original: 67.55
-    mi_sei: -2.387
-    mi_visual_studio: 39.503
+    original: 67.55
+    sei: -2.387
+    visual_studio: 39.503
   abc:
     assignments: 0
     branches: 4

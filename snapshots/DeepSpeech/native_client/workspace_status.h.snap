@@ -9,16 +9,16 @@ kind: unit
 spaces: []
 metrics:
   nargs:
-    total_functions: 0
-    total_closures: 0
-    average_functions: 0
-    average_closures: 0
+    function_args: 0
+    closure_args: 0
+    function_args_average: 0
+    closure_args_average: 0
     total: 0
     average: 0
-    functions_min: 0
-    functions_max: 0
-    closures_min: 0
-    closures_max: 0
+    function_args_min: 0
+    function_args_max: 0
+    closure_args_min: 0
+    closure_args_max: 0
   nexits:
     sum: 0
     average: 0
@@ -40,10 +40,10 @@ metrics:
       min: 1
       max: 1
   halstead:
-    n1: 5
-    N1: 15
-    n2: 5
-    N2: 6
+    unique_operators: 5
+    total_operators: 15
+    unique_operands: 5
+    total_operands: 6
     length: 21
     estimated_program_length: 23.219
     purity_ratio: 1.106
@@ -92,9 +92,9 @@ metrics:
     tokens_min: 32
     tokens_max: 32
   mi:
-    mi_original: 113.101
-    mi_sei: 42.583
-    mi_visual_studio: 66.141
+    original: 113.101
+    sei: 42.583
+    visual_studio: 66.141
   abc:
     assignments: 0
     branches: 0

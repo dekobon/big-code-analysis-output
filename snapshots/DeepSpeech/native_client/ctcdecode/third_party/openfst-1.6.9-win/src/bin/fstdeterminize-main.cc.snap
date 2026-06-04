@@ -14,16 +14,16 @@ spaces:
     spaces: []
     metrics:
       nargs:
-        total_functions: 2
-        total_closures: 0
-        average_functions: 2
-        average_closures: 0
+        function_args: 2
+        closure_args: 0
+        function_args_average: 2
+        closure_args_average: 0
         total: 2
         average: 2
-        functions_min: 2
-        functions_max: 2
-        closures_min: 0
-        closures_max: 0
+        function_args_min: 2
+        function_args_max: 2
+        closure_args_min: 0
+        closure_args_max: 0
       nexits:
         sum: 4
         average: 4
@@ -45,10 +45,10 @@ spaces:
           min: 8
           max: 8
       halstead:
-        n1: 24
-        N1: 134
-        n2: 50
-        N2: 94
+        unique_operators: 24
+        total_operators: 134
+        unique_operands: 50
+        total_operands: 94
         length: 228
         estimated_program_length: 392.232
         purity_ratio: 1.72
@@ -97,9 +97,9 @@ spaces:
         tokens_min: 301
         tokens_max: 301
       mi:
-        mi_original: 69.764
-        mi_sei: 25.762
-        mi_visual_studio: 40.798
+        original: 69.764
+        sei: 25.762
+        visual_studio: 40.798
       abc:
         assignments: 6
         branches: 15
@@ -116,16 +116,16 @@ spaces:
         conditions_max: 10
 metrics:
   nargs:
-    total_functions: 2
-    total_closures: 0
-    average_functions: 2
-    average_closures: 0
+    function_args: 2
+    closure_args: 0
+    function_args_average: 2
+    closure_args_average: 0
     total: 2
     average: 2
-    functions_min: 0
-    functions_max: 2
-    closures_min: 0
-    closures_max: 0
+    function_args_min: 0
+    function_args_max: 2
+    closure_args_min: 0
+    closure_args_max: 0
   nexits:
     sum: 4
     average: 4
@@ -147,10 +147,10 @@ metrics:
       min: 1
       max: 8
   halstead:
-    n1: 24
-    N1: 146
-    n2: 59
-    N2: 106
+    unique_operators: 24
+    total_operators: 146
+    unique_operands: 59
+    total_operands: 106
     length: 252
     estimated_program_length: 457.115
     purity_ratio: 1.814
@@ -199,9 +199,9 @@ metrics:
     tokens_min: 42
     tokens_max: 301
   mi:
-    mi_original: 62.672
-    mi_sei: -15.505
-    mi_visual_studio: 36.65
+    original: 62.672
+    sei: -15.505
+    visual_studio: 36.65
   abc:
     assignments: 6
     branches: 21
