@@ -1,0 +1,13 @@
+when HTTP_REQUEST {
+    if {[HTTP::uri] eq "/a"} { return } elseif {[HTTP::uri] eq "/b"} { return } else { }
+    if {1} { if {2} { return } }
+    for {set i 0} {$i < 3} {incr i} { }
+    foreach x [list a b] { }
+    while {1} { break }
+    dict for {k v} [list] { }
+    switch -glob -- [HTTP::uri] { "/x*" { return } "/y" - "/z" { return } default { } }
+    catch { error "x" } msg
+    try { error "y" } on error {m o} { } trap {} {m o} { } finally { }
+    ::return
+    set t [expr {1 ? 2 : 3}]
+}

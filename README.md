@@ -12,9 +12,13 @@ It is not a standalone crate and contains no Rust code.
 
 ```text
 .
+├── control_flow/            # Hand-written per-language control-flow corpus
+│   └── <lang>/              #   (one dir per language slug) exercised by
+│                            #   tests/corpus/control_flow_test.rs
 ├── csharp/                  # Hand-written C# corpus exercised by tests/csharp_test.rs
 ├── php/                     # Hand-written PHP  corpus exercised by tests/php_test.rs
 └── snapshots/
+    ├── control_flow/        # Snapshots for the in-tree control_flow/ corpus
     ├── csharp/              # Snapshots for the in-tree csharp/  corpus
     ├── php/                 # Snapshots for the in-tree php/     corpus
     ├── serde/               # Snapshots for the serde      submodule corpus
@@ -30,6 +34,13 @@ It is not a standalone crate and contains no Rust code.
    metric implementations need to exercise (anonymous types, control flow,
    generics, traits/enums, embedded markup, etc.). Add cases here when a
    new metric or language feature needs targeted coverage.
+   `control_flow/<lang>/` holds the 25 fixtures that were the oracle
+   inputs for the parent's role-table series (dekobon/big-code-analysis
+   #1697, preserved by #1744): one `r07.*` per language spelling every
+   `Branch` / `Switch` / `Loop` / `Catch` / `ElseIf` / `Exit` owner and
+   payer, the `c5b.*` Tcl / Elixir negatives and the `sw.*` switch-nesting
+   inputs. Every one parses with zero `ERROR` / `MISSING` nodes at the
+   pinned grammars.
 2. **Snapshot trees** — `snapshots/<corpus>/<path>.snap` mirrors each
    input file's relative path under its corpus. The parent's
    `tests/common/mod.rs` writes serialized `FuncSpace` metrics with
