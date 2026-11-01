@@ -15,8 +15,8 @@ It is not a standalone crate and contains no Rust code.
 ├── control_flow/            # Hand-written per-language control-flow corpus
 │   └── <lang>/              #   (one dir per language slug) exercised by
 │                            #   tests/corpus/control_flow_test.rs
-├── csharp/                  # Hand-written C# corpus exercised by tests/csharp_test.rs
-├── php/                     # Hand-written PHP  corpus exercised by tests/php_test.rs
+├── csharp/                  # Hand-written C# corpus exercised by tests/corpus/csharp_test.rs
+├── php/                     # Hand-written PHP  corpus exercised by tests/corpus/php_test.rs
 └── snapshots/
     ├── control_flow/        # Snapshots for the in-tree control_flow/ corpus
     ├── csharp/              # Snapshots for the in-tree csharp/  corpus
@@ -40,7 +40,9 @@ It is not a standalone crate and contains no Rust code.
    `Branch` / `Switch` / `Loop` / `Catch` / `ElseIf` / `Exit` owner and
    payer, the `c5b.*` Tcl / Elixir negatives and the `sw.*` switch-nesting
    inputs. Every one parses with zero `ERROR` / `MISSING` nodes at the
-   pinned grammars.
+   pinned grammars. Their snapshots were captured at parent commit
+   `fdd12ad4`, the tree the R07 oracle runs verified byte-identical to
+   its base except for #1720 and #1602.
 2. **Snapshot trees** — `snapshots/<corpus>/<path>.snap` mirrors each
    input file's relative path under its corpus. The parent's
    `tests/common/mod.rs` writes serialized `FuncSpace` metrics with
