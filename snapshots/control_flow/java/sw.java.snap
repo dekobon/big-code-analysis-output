@@ -1,6 +1,5 @@
 ---
 source: tests/common/mod.rs
-assertion_line: 134
 expression: funcspace_struct
 ---
 name: "[filepath]"
@@ -265,13 +264,13 @@ spaces:
             closure_args_max: 1
           nexits:
             sum: 2
-            average: 1
+            average: 2
             min: 2
             max: 2
           cognitive:
             sum: 3
             value: 3
-            average: 1.5
+            average: 3
             min: 3
             max: 3
           cyclomatic:
@@ -956,26 +955,26 @@ spaces:
         closure_args_max: 1
       nexits:
         sum: 16
-        average: 1.778
+        average: 2
         min: 0
         max: 3
       cognitive:
         sum: 20
         value: 0
-        average: 2.222
-        min: 0
+        average: 2.5
+        min: 1
         max: 5
       cyclomatic:
         sum: 24
         value: 1
-        average: 3
+        average: 2.875
         min: 1
         max: 4
         modified:
           sum: 25
           value: 1
-          average: 3.125
-          min: 1
+          average: 3
+          min: 2
           max: 4
       halstead:
         unique_operators: 21
@@ -1091,26 +1090,26 @@ metrics:
     closure_args_max: 1
   nexits:
     sum: 16
-    average: 1.778
+    average: 2
     min: 0
     max: 3
   cognitive:
     sum: 20
     value: 0
-    average: 2.222
-    min: 0
+    average: 2.5
+    min: 1
     max: 5
   cyclomatic:
     sum: 25
     value: 1
-    average: 3.125
+    average: 2.875
     min: 1
     max: 4
     modified:
       sum: 26
       value: 1
-      average: 3.25
-      min: 1
+      average: 3
+      min: 2
       max: 4
   halstead:
     unique_operators: 21
